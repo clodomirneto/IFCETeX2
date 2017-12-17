@@ -1,0 +1,41 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[ASSIS, AVANCI e PESCE 2005]{tresautores}
+\abntrefinfo{ASSIS, AVANCI e PESCE}{ASSIS; AVANCI; PESCE}{2005}
+{ASSIS, S.~G.; AVANCI, J.~Q.; PESCE, R.~P. \textbf{Resiliência: enfatizando a
+  proteção dos adolescentes}. Porto Alegre: Artmed: [s.n.], 2005.}
+
+\bibitem[BORGES 2012]{Maia2011}
+\abntrefinfo{BORGES}{BORGES}{2012}
+{BORGES, J. A.~M.
+\textbf{Estudo da drogadição gestacional e óbito neonatal}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Estadual do Ceará, Fortaleza,
+  2012.}
+
+\bibitem[Hu \textit{et al.} 2000]{Huetal2000}
+\abntrefinfo{Hu \textit{et al.}}{HU \textit{et al.}}{2000}
+{HU, J.; WU, H.; JENNINGS, A.; WANG, X. Fast and robust equalization: A case
+  study. In:  \textbf{Proceedings of the World Multiconference on Systemics,
+  Cybernetics and Informatics, (SCI 2000), Florida, USA, 23-26 July 2000}. FL,
+  USA: International Institute of Informatics and Systemics, 2000. p.
+  398--403.}
+
+\bibitem[Lamport 1986]{lamport1986latex}
+\abntrefinfo{Lamport}{LAMPORT}{1986}
+{LAMPORT, L. Latex: User's guide \& reference manual.
+Addison-Wesley, 1986.}
+
+\bibitem[Wessberg \textit{et al.} 2000]{quatroautores}
+\abntrefinfo{Wessberg \textit{et al.}}{WESSBERG \textit{et al.}}{2000}
+{WESSBERG, J.; STAMBAUGH, C.~R.; KRALIK, J.~D.; BECK, P.~D.; LAUBACH, M.;
+  CHAPIN, J.~K.; KIM, J.; BIGGS, S.~J.; SRINIVASAN, M.~A.; NICOLELIS, M.~A.
+  Real-time prediction of hand trajectory by ensembles of cortical neurons in
+  primates.
+\textbf{Nature}, Nature Publishing Group, v.~408, n.~6810, p. 361--365, 2000.}
+
+\end{thebibliography}
