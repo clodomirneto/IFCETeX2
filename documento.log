@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  17 DEC 2017 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  18 DEC 2017 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,12 +7,12 @@ entering extended mode
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
 (./lib/preambulo.tex
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2.cls
+(/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/memoir/memoir.cls
+(/usr/local/texlive/2017/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
 ment class
 \onelineskip=\skip41
@@ -20,17 +20,17 @@ ment class
 \xlvchars=\skip43
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/ifetex/ifetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ifetex/ifetex.sty
 Package: ifetex 2011/12/15 v1.2 ifetex
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/plain/ifetex/ifetex.tex))
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/plain/ifetex/ifetex.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -39,7 +39,7 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/memoir/mem12.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/memoir/mem12.clo
 File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 )
 \binding=\skip48
@@ -338,23 +338,22 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/memoir/mempatch.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/memoir/mempatch.sty
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.st
-y
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -392,26 +391,27 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
 \Hy@linkcounter=\count137
 \Hy@pagecounter=\count138
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count139
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -423,7 +423,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count140
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -445,7 +445,7 @@ LaTeX Info: Redefining \pageref on input line 6432.
 \c@Item=\count143
 \c@Hfootnote=\count144
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/memoir/memhfixc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
 \c@memhycontfloat=\count145
@@ -454,37 +454,38 @@ ass
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count147
 \c@bookmark@seq@number=\count148
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip185
-) (/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/11/03 3.15 The Babel package
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/11/03 3.15 Babel common definitions
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 \babel@savecnt=\count150
@@ -494,7 +495,7 @@ File: switch.def 2017/11/03 3.15 Babel switching mechanism
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 \es@quottoks=\toks23
 \es@quotdepth=\count151
@@ -503,10 +504,11 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
-)) (/home/clodomir/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip186
 \enit@outerparindent=\dimen152
@@ -514,7 +516,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box29
 \enitdp@description=\count152
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count153
 \calc@Bcount=\count154
@@ -561,19 +563,19 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \ABNTEXsignwidth=\skip193
 \ABNTEXsignthickness=\skip194
 \ABNTEXsignskip=\skip256
-) (/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -814,7 +816,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -855,7 +857,7 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -881,34 +883,34 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks27
 \symAMSa=\mathgroup4
@@ -916,27 +918,27 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip257
 
 For additional information on amsmath, use the `?' option.
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
 \ex@=\dimen157
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen158
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count164
@@ -977,17 +979,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip260
 \multirow@cntb=\count176
 \multirow@dima=\skip261
 \bigstrutjot=\dimen166
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count177
 \lst@gtempboxa=\box32
 \lst@token=\toks33
@@ -1001,21 +1003,21 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 \lst@lineno=\count182
 \lst@maxwidth=\dimen170
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count183
 \lst@skipnumbers=\count184
 \lst@framebox=\box33
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -1029,7 +1031,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
 \MT@toks=\toks34
 \MT@count=\count185
@@ -1038,31 +1040,31 @@ LaTeX Info: Redefining \textls on input line 789.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
 \MT@listname@count=\count186
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.de
-f
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 912.
 LaTeX Info: Redefining \lslig on input line 912.
 \MT@outer@space=\skip262
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (/home/clodomir/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count187
 \algocf@hangindent=\skip263
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count188
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip264
@@ -1101,7 +1103,7 @@ Package: relsize 2013/03/29 ver 4.1
 \algocf@algoframe=\box40
 \algocf@algobox=\box41
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count192
 \c@ALC@line=\count193
@@ -1110,55 +1112,55 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip282
 \algorithmicindent=\skip283
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count267
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count268
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.st
-y
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2017/11/14 v4.35 (NLCT)
- (/home/clodomir/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
 \XKV@depth=\count269
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 \@glsmfirst=\toks37
 \@glsmrest=\toks38
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count270
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2017/11/12 v2.29 (NLCT)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count271
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count272
 \FP@xia=\count273
@@ -1170,32 +1172,32 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count279
 \FP@times=\count280
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
 Package: fp-exp 1995/04/03
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
 Package: fp-pas 1994/08/29
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count281
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks39
@@ -1208,33 +1210,33 @@ Package: fp-eval 1995/04/03
 \dtl@codeB=\count287
 \@dtl@foreach@level=\count288
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-co
-mpatible-307.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
 Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/tracklang/tracklang.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/tracklang/tracklang.tex))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/translator/translator.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2017/11/30 v1.11
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries-english/glossaries
--english.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-english/glossaries-eng
+lish.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries
--spanish.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spa
+nish.ldf
 File: glossaries-spanish.ldf 2014/11/23 v1.0
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries
--spanish-utf8.ldf))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries-portuges/glossarie
-s-pt-BR.ldf
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-spanish/glossaries-spa
+nish-utf8.ldf))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-portuges/glossaries-pt
+-BR.ldf
 File: glossaries-pt-BR.ldf 2014/11/23 v1.0
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries-portuges/glossarie
-s-portuges-utf8.ldf))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-portuges/glossaries-po
+rtuges-utf8.ldf))
 \gls@level=\count289
 \@gls@tmpb=\toks40
 \gls@tmplen=\skip285
@@ -1251,19 +1253,19 @@ Package glossaries Warning: Overriding `theglossary' environment on input line
 \glsshorttok=\toks43
 \glslongtok=\toks44
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hy
-pernav.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
 Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-li
-st.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
 Package: glossary-list 2017/11/14 v4.35 (NLCT)
 \glslistdottedwidth=\skip286
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-lo
-ng.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
 Package: glossary-long 2017/11/14 v4.35 (NLCT)
- (/home/clodomir/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip287
 \LTright=\skip288
@@ -1284,11 +1286,10 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \glsdescwidth=\skip291
 \glspagelistwidth=\skip292
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-su
-per.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
 Package: glossary-super 2017/11/14 v4.35 (NLCT)
-
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count295
 \ST@wd=\dimen179
@@ -1307,8 +1308,8 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@dimen=\dimen189
 \ST@pbox=\box46
 ))
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tr
-ee.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
 Package: glossary-tree 2017/11/14 v4.35 (NLCT)
 \glstreeindent=\skip296
 ))
@@ -1319,10 +1320,10 @@ To prepare we will now reset all captioning macros and configurations to kernel
  the caption package interfaces in order to
  configure your captions.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen190
@@ -1338,15 +1339,15 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip297
 \ABCIauxlen=\skip298
 \c@ABCIaux=\count297
@@ -1356,7 +1357,7 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks46
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1392,7 +1393,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/paracol/paracol.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2015/10/10 v1.32 
 \pcol@currcol=\count299
 \pcol@nextcol=\count300
@@ -1474,16 +1475,16 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \cftbeforelstlistingskip=\skip309
 \cftlstlistingindent=\skip310
 \cftlstlistingnumwidth=\skip311
-) (/home/clodomir/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \AM@pagewidth=\dimen263
 \AM@pageheight=\dimen264
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box51
@@ -1532,16 +1533,16 @@ LaTeX Font Info:    ... okay on input line 161.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
 LaTeX Font Info:    ... okay on input line 161.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 161.
- (/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box53
 Package hyperref Info: Link coloring OFF on input line 161.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count335
@@ -1554,7 +1555,7 @@ LaTeX Info: Redefining \pageref on input line 161.
 LaTeX Info: Redefining \nameref on input line 161.
 \myptabbox=\box54
 \myptabboxwidth=\skip312
-(/home/clodomir/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
 \scratchdimen=\dimen265
@@ -1567,10 +1568,10 @@ LaTeX Info: Redefining \nameref on input line 161.
 \MPnumerator=\count340
 \makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks51
-) (/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1580,7 +1581,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -1595,16 +1596,17 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (/home/clodomir/texlive/2017/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1616,13 +1618,12 @@ File: lib/logo-ifce.jpg Graphic file (type jpg)
 <use lib/logo-ifce.jpg>
 Package pdftex.def Info: lib/logo-ifce.jpg  used on input line 167.
 (pdftex.def)             Requested size: 64.23984pt x 60.22484pt.
-
-[1
+ [1
 
 \openout4 = `documento.ist'.
 
-{/home/clodomir/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./l
-ib/logo-ifce.jpg>]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./lib/l
+ogo-ifce.jpg>]
 Underfull \hbox (badness 4229) in paragraph at lines 168--168
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
@@ -1639,7 +1640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--168
 
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
 8.
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1649,31 +1650,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
 8.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
 8.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
 8.
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 168.
 
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1779,7 +1780,10 @@ Overfull \hbox (4.80414pt too wide) in paragraph at lines 174--175
 ] (./documento.lof) [9
 
 ]
-(./documento.lot) [10] (./documento.loq) [11] (./documento.acr
+(./documento.lot) [10] (./documento.loq) [11] (./documento.loa) [12
+
+]
+(./documento.lol) [13] (./documento.acr
 Overfull \hbox (4.40385pt too wide) in alignment at lines 2--51
  [] [] 
  []
@@ -1789,20 +1793,20 @@ Overfull \hbox (4.40385pt too wide) in alignment at lines 51--57
  [] [] 
  []
 
-) (./elementos-pre-textuais/lista-de-simbolos.tex [12
+) (./elementos-pre-textuais/lista-de-simbolos.tex [14
 
 
-] [13
+] [15
 
 ]) (./documento.toc
-[14
+[16
 
-]) [15] (./elementos-textuais/introducao.tex [16
+]) [17] (./elementos-textuais/introducao.tex [18
 
 
 ])
-(./elementos-textuais/fundamentacao-teorica.tex [17]
-<figuras/figura-1.jpg, id=248, 240.9pt x 211.79124pt>
+(./elementos-textuais/fundamentacao-teorica.tex [19]
+<figuras/figura-1.jpg, id=266, 240.9pt x 211.79124pt>
 File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
 Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
@@ -1813,10 +1817,10 @@ Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
- [18
+ [20
 
  <./figuras/figura-1.jpg>]
-<figuras/figura-2.jpg, id=254, 254.9525pt x 232.87pt>
+<figuras/figura-2.jpg, id=271, 254.9525pt x 232.87pt>
 File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
 Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
@@ -1835,7 +1839,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./figuras/figura-2.jpg>]
+[21 <./figuras/figura-2.jpg>]
 File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
 Package pdftex.def Info: figuras/figura-2.jpg  used on input line 72.
@@ -1848,7 +1852,7 @@ Package pdftex.def Info: figuras/figura-2.jpg  used on input line 72.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]) (./elementos-textuais/trabalhos-relacionados.tex [21]
+[22]) (./elementos-textuais/trabalhos-relacionados.tex [23]
 File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
 Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
@@ -1857,7 +1861,7 @@ File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
 Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
- [22
+ [24
 
 ]
 File: figuras/figura-2.jpg Graphic file (type jpg)
@@ -1868,15 +1872,15 @@ File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
 Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
 (pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
- [23])
-(./elementos-textuais/metodologia.tex [24]
+ [25])
+(./elementos-textuais/metodologia.tex [26]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25
+[27
 
-] [26] [27]
-<figuras/figura-3.png, id=365, 429.10312pt x 240.9pt>
+] [28] [29]
+<figuras/figura-3.png, id=381, 429.10312pt x 240.9pt>
 File: figuras/figura-3.png Graphic file (type png)
 <use figuras/figura-3.png>
 Package pdftex.def Info: figuras/figura-3.png  used on input line 122.
@@ -1885,20 +1889,20 @@ File: figuras/figura-3.png Graphic file (type png)
 <use figuras/figura-3.png>
 Package pdftex.def Info: figuras/figura-3.png  used on input line 122.
 (pdftex.def)             Requested size: 214.55103pt x 120.44969pt.
- [28 <./figuras/figura-3.png>] [29] [30] [31]
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+ [30 <./figuras/figura-3.png>] [31] [32] [33]
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 211.
 
 
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1907,15 +1911,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 (./figuras/main.cpp)
-(/home/clodomir/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-[32] [33] [34]) (./elementos-textuais/resultados.tex [35])
-(./elementos-textuais/conclusao.tex [36
+) [34]
+[35] [36]) (./elementos-textuais/resultados.tex [37])
+(./elementos-textuais/conclusao.tex [38
 
-] [37
+] [39
 
-]) (./documento.bbl [38]
+]) (./documento.bbl [40]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -1927,25 +1931,25 @@ Package glossaries Warning: Deprecated command \glossarystyle.
  I recommend you switch to \setglossarystyle unless you want to maintain backwa
 rd compatibility on input line 203.
 
-(./documento.gls [39
+(./documento.gls [41
 
-]) [40
+]) [42
 
 
 ] (./elementos-pos-textuais/apendice-a.tex)
-(./elementos-pos-textuais/apendice-b.tex [41
+(./elementos-pos-textuais/apendice-b.tex [43
 
 
 ])
-(./elementos-pos-textuais/apendice-c.tex [42
+(./elementos-pos-textuais/apendice-c.tex [44
 
 ])
-(./elementos-pos-textuais/anexo-a.tex [43
+(./elementos-pos-textuais/anexo-a.tex [45
 
 ])
-(./elementos-pos-textuais/anexo-b.tex [44
+(./elementos-pos-textuais/anexo-b.tex [46
 
-]) [45
+]) [47
 
 ]
 \tf@lof=\write8
@@ -1957,8 +1961,14 @@ rd compatibility on input line 203.
 \tf@loq=\write10
 \openout10 = `documento.loq'.
 
-\tf@toc=\write11
-\openout11 = `documento.toc'.
+\tf@loa=\write11
+\openout11 = `documento.loa'.
+
+\tf@lol=\write12
+\openout12 = `documento.lol'.
+
+\tf@toc=\write13
+\openout13 = `documento.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
@@ -1972,29 +1982,29 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 28145 strings out of 492985
- 449004 string characters out of 6130710
- 806676 words of memory out of 5000000
+ 28154 strings out of 492985
+ 447773 string characters out of 6132594
+ 806752 words of memory out of 5000000
  30832 multiletter control sequences out of 15000+600000
  63382 words of font info for 207 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,18n,100p,2087b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/home/clodomir/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.
-enc}{/home/clodomir/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/
-clodomir/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></ho
-me/clodomir/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/home/clodomir/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></home/clodomir/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></home/clodomir/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt120
-0.pfb></home/clodomir/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
-/home/clodomir/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></home/c
-lodomir/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/clodomi
-r/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/clodomir/texl
-ive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on documento.pdf (46 pages, 306128 bytes).
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on documento.pdf (48 pages, 307082 bytes).
 PDF statistics:
- 722 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
- 205 named destinations out of 1000 (max. 500000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 657 compressed objects within 7 object streams
+ 208 named destinations out of 1000 (max. 500000)
  30089 words of extra memory for PDF output out of 35830 (max. 10000000)
 
