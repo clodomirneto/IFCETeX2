@@ -17,7 +17,7 @@
 %%                                                                      %%
 %% The Current Maintainer of this work is Clodomir Silva Lima Neto      %%
 %%                                                                      %%
-%% Project available on: https://github.com/clodomirneto/ifcetex        %%
+%% Project available on: https://github.com/clodomirneto/IFCETeX2       %%
 %%                                                                      %%
 %% Further information about abnTeX2 are available on                   %%
 %%  http://abntex2.googlecode.com/                      				%%
@@ -208,26 +208,26 @@
 
 % Adiciona o sexo do orientador e do co-orientador no documento atraves do artigo "a".
 
-\provideboolean{uecetex2@orientadorfeminino}
-\provideboolean{uecetex2@coorientadorfeminino}
+\provideboolean{ifcetex2@orientadorfeminino}
+\provideboolean{ifcetex2@coorientadorfeminino}
 
-\setboolean{uecetex2@orientadorfeminino}{false}
-\setboolean{uecetex2@coorientadorfeminino}{false}
+\setboolean{ifcetex2@orientadorfeminino}{false}
+\setboolean{ifcetex2@coorientadorfeminino}{false}
 
 \newcommand{\orientadorfeminino}[1]{
 	 \ifthenelse{\equal{#1}{sim}}{%
-	 	\setboolean{uecetex2@orientadorfeminino}{true}
+	 	\setboolean{ifcetex2@orientadorfeminino}{true}
 	 }
 }
 
 \newcommand{\coorientadorfeminino}[1]{
 	\ifthenelse{\equal{#1}{sim}}{%
-		\setboolean{uecetex2@coorientadorfeminino}{true}
+		\setboolean{ifcetex2@coorientadorfeminino}{true}
 	}
 }
 
 \newcommand{\artigoorientador}{ %
-	\ifthenelse{\boolean{uecetex2@orientadorfeminino}}{ %
+	\ifthenelse{\boolean{ifcetex2@orientadorfeminino}}{ %
 		\unskip Orientadora\ignorespaces%
 	}{ %
 		\unskip Orientador\ignorespaces%
@@ -235,7 +235,7 @@
 }
 
 \newcommand{\artigocoorientador}{ %
-	\ifthenelse{\boolean{uecetex2@coorientadorfeminino}}{ %
+	\ifthenelse{\boolean{ifcetex2@coorientadorfeminino}}{ %
 		Co-Orientadora\ignorespaces%
 	}{ %
 		Co-Orientador\ignorespaces%
@@ -243,7 +243,7 @@
 }
 
 \newcommand{\artigoorientadorcomparenteses}{ %
-	\ifthenelse{\boolean{uecetex2@orientadorfeminino}}{ %
+	\ifthenelse{\boolean{ifcetex2@orientadorfeminino}}{ %
 		(Orientadora)\ignorespaces%
 	}{ %
 		(Orientador)\ignorespaces%
@@ -251,7 +251,7 @@
 }
 
 \newcommand{\artigocoorientadorcomparenteses}{ %
-	\ifthenelse{\boolean{uecetex2@coorientadorfeminino}}{ %
+	\ifthenelse{\boolean{ifcetex2@coorientadorfeminino}}{ %
 		(Co-Orientadora)\ignorespaces%
 	}{ %
 		(Co-Orientador)\ignorespaces%
@@ -259,47 +259,47 @@
 }
 
 % Variaveis utilizada para gerar o documento de qualificacao
-\provideboolean{uecetex2@ehqualificacao}
-\setboolean{uecetex2@ehqualificacao}{false}
+\provideboolean{ifcetex2@ehqualificacao}
+\setboolean{ifcetex2@ehqualificacao}{false}
 
 \newcommand{\ehqualificacao}[1]{
 	\ifthenelse{\equal{#1}{sim}}{%
-		\setboolean{uecetex2@ehqualificacao}{true}
+		\setboolean{ifcetex2@ehqualificacao}{true}
 	}
 }
 
 % Determina o tipo do trabalho apresentado
 % Definicao das variaveis
-\provideboolean{uecetex2@ehtccgraduacao}
-\provideboolean{uecetex2@ehtccespecializacao}
-\provideboolean{uecetex2@ehdissertacao}
-\provideboolean{uecetex2@ehtese}
+\provideboolean{ifcetex2@ehtccgraduacao}
+\provideboolean{ifcetex2@ehtccespecializacao}
+\provideboolean{ifcetex2@ehdissertacao}
+\provideboolean{ifcetex2@ehtese}
 
 % Valores Iniciais
-\setboolean{uecetex2@ehtccgraduacao}{false}
-\setboolean{uecetex2@ehtccespecializacao}{false}
-\setboolean{uecetex2@ehdissertacao}{true}
-\setboolean{uecetex2@ehtese}{false}
+\setboolean{ifcetex2@ehtccgraduacao}{false}
+\setboolean{ifcetex2@ehtccespecializacao}{false}
+\setboolean{ifcetex2@ehdissertacao}{true}
+\setboolean{ifcetex2@ehtese}{false}
 
 \newcommand{\trabalhoacademico}[1]{
-	\setboolean{uecetex2@ehtccgraduacao}{false}
-	\setboolean{uecetex2@ehtccespecializacao}{false}
-	\setboolean{uecetex2@ehdissertacao}{false}
-	\setboolean{uecetex2@ehtese}{false}
+	\setboolean{ifcetex2@ehtccgraduacao}{false}
+	\setboolean{ifcetex2@ehtccespecializacao}{false}
+	\setboolean{ifcetex2@ehdissertacao}{false}
+	\setboolean{ifcetex2@ehtese}{false}
 	
 	\ifthenelse{\equal{#1}{tccgraduacao}}{%
-		\setboolean{uecetex2@ehtccgraduacao}{true}
+		\setboolean{ifcetex2@ehtccgraduacao}{true}
 	}{
 		\ifthenelse{\equal{#1}{tccespecializacao}}{%
-			\setboolean{uecetex2@ehtccespecializacao}{true}
+			\setboolean{ifcetex2@ehtccespecializacao}{true}
 		}{
 			\ifthenelse{\equal{#1}{dissertacao}}{%
-				\setboolean{uecetex2@ehdissertacao}{true}
+				\setboolean{ifcetex2@ehdissertacao}{true}
 			}{
 				\ifthenelse{\equal{#1}{tese}}{%
-					\setboolean{uecetex2@ehtese}{true}
+					\setboolean{ifcetex2@ehtese}{true}
 				}{
-					\setboolean{uecetex2@ehdissertacao}{true}
+					\setboolean{ifcetex2@ehdissertacao}{true}
 				}
 			}
 		}	
@@ -311,7 +311,7 @@
 	\hypersetup{ %
 		pdftitle={\imprimirtitulo},%
 		pdfauthor={\imprimirautor}, %
-		pdfsubject={Powered by ifcetex - Acesse https://github.com/clodomirneto/ifcetex} %
+		pdfsubject={Powered by ifcetex - Acesse https://github.com/clodomirneto/IFCETeX2} %
 	}%
 	% Define a altura das equacoes matematicas
 %	\abovedisplayskip=-1pt plus 3pt minus 9pt
@@ -327,9 +327,9 @@
 \setcounter{table}{0}
 
 % Comandos para inserir figuras, tabelas e quadros
-\newcommand{\UECEfig}[3]{\IBGEtab{#1}{#2}{#3}}
-\newcommand{\UECEtab}[3]{\IBGEtab{#1}{#2}{#3}}
-\newcommand{\UECEqua}[3]{\IBGEtab{#1}{#2}{#3}}
+\newcommand{\IFCEfig}[3]{\IBGEtab{#1}{#2}{#3}}
+\newcommand{\IFCEtab}[3]{\IBGEtab{#1}{#2}{#3}}
+\newcommand{\IFCEqua}[3]{\IBGEtab{#1}{#2}{#3}}
 
 % Ambiente para alineas e e subalineas (incisos) com ponto
 \newlist{alineascomponto}{itemize}{2}
@@ -510,16 +510,16 @@
 }
 
 \preambulo{
-	\ifthenelse{\boolean{uecetex2@ehqualificacao}}{ %
+	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{ %
 		Proposta de qualificação apresentada ao Curso de \imprimirmestrado\  da \imprimiries\ (\imprimiriessigla) como requisito parcial para a defesa de dissertação.
 	}{ %
-		\ifthenelse{\boolean{uecetex2@ehdissertacao}}{ %
+		\ifthenelse{\boolean{ifcetex2@ehdissertacao}}{ %
 			\preambulodissertacao %	
 		}{
-			\ifthenelse{\boolean{uecetex2@ehtese}}{ %
+			\ifthenelse{\boolean{ifcetex2@ehtese}}{ %
 				\preambulotese	 %
 			}{
-				\ifthenelse{\boolean{uecetex2@ehtccgraduacao}}{ %
+				\ifthenelse{\boolean{ifcetex2@ehtccgraduacao}}{ %
 					\preambulotccgraduacao	 %
 				}{
 					\preambulotccespecializacao %
@@ -540,7 +540,7 @@
 		% Todos os elementos da capa devem esta em negrito
 		\bfseries
 
-        \includegraphics[scale=0.5]{lib/logo-ifce} \\
+        \includegraphics[scale=0.5]{figuras/logo-ifce} \\
         \vspace{0.1cm}
 		\MakeUppercase{\imprimiries} \\
 		\MakeUppercase{\imprimircentro} \\
@@ -572,7 +572,7 @@
 		% Todos os elementos da capa devem esta em negrito
 		\bfseries
 
-        \includegraphics[scale=0.5]{lib/logo-ifce} \\
+        \includegraphics[scale=0.5]{figuras/logo-ifce} \\
         \vspace{0.1cm}
 		\MakeUppercase{\imprimiries} \\
 		\MakeUppercase{\imprimircentro} \\
@@ -604,7 +604,7 @@
 		% Todos os elementos da capa devem esta em negrito
 		\bfseries
 
-        \includegraphics[scale=0.5]{lib/logo-ifce} \\
+        \includegraphics[scale=0.5]{figuras/logo-ifce} \\
         \vspace{0.1cm}
 		\MakeUppercase{\imprimiries} \\
 		\MakeUppercase{\imprimircentro} \\
@@ -629,13 +629,13 @@
 \renewcommand{\imprimircapa}{%
 	% Toda capa deve ter pagina 0
 	\setcounter{page}{0}
-	\ifthenelse{\boolean{uecetex2@ehdissertacao}}{ %
+	\ifthenelse{\boolean{ifcetex2@ehdissertacao}}{ %
 			\imprimircapadissertacao %	
 	}{
-		\ifthenelse{\boolean{uecetex2@ehtese}}{ %
+		\ifthenelse{\boolean{ifcetex2@ehtese}}{ %
 			\imprimircapatese	 %
 		}{
-			\ifthenelse{\boolean{uecetex2@ehtccgraduacao}}{ %
+			\ifthenelse{\boolean{ifcetex2@ehtccgraduacao}}{ %
 				\imprimircapatcc{Graduação}{\imprimirgraduacaoem}	 %
 			}{
 				\imprimircapatcc{Especialização}{\imprimirespecializacaoem} %
@@ -930,13 +930,13 @@
 }
 
 \newcommand{\imprimirfolhadeaprovacao}{
-	\ifthenelse{\boolean{uecetex2@ehdissertacao}}{ %
+	\ifthenelse{\boolean{ifcetex2@ehdissertacao}}{ %
     	\imprimirfolhadeaprovacaodissertacao %	
     }{
-    	\ifthenelse{\boolean{uecetex2@ehtese}}{ %
+    	\ifthenelse{\boolean{ifcetex2@ehtese}}{ %
     		\imprimirfolhadeaprovacaotese	 %
     	}{
-    		\ifthenelse{\boolean{uecetex2@ehtccgraduacao}}{ %
+    		\ifthenelse{\boolean{ifcetex2@ehtccgraduacao}}{ %
     			\imprimirfolhadeaprovacaotcc	 %
     		}{
     			\imprimirfolhadeaprovacaotcc
@@ -995,7 +995,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\imprimirdedicatoria}[1]{
-	\ifthenelse{\boolean{uecetex2@ehqualificacao}}{}{
+	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{}{
 		\vspace*{20cm}
 		\vfill
 		%Retira o espaço do parágrafo
@@ -1014,7 +1014,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\imprimirerrata}[1]{%
-	\ifthenelse{\boolean{uecetex2@ehqualificacao}}{}{%
+	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{}{%
 		\begin{errata} %
 		\input{#1}%
 		\end{errata}%
@@ -1026,7 +1026,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\imprimiragradecimentos}[1]{ 
-	\ifthenelse{\boolean{uecetex2@ehqualificacao}}{}{
+	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{}{
 		\begin{agradecimentos}
 			\begin{paracol}{1}
 				\setlength{\parindent}{0pt}%
@@ -1041,7 +1041,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\imprimirepigrafe}[1]{
-	\ifthenelse{\boolean{uecetex2@ehqualificacao}}{}{
+	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{}{
 		\vspace*{\fill}
 		\vfill
 		%Retira o espaço do parágrafo
@@ -1062,7 +1062,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\imprimirfichacatalografica}[1]{%
-	\ifthenelse{\boolean{uecetex2@ehqualificacao}}{}{%
+	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{}{%
 		\includepdf[pages=1]{#1} %
 	}%
 }
@@ -1282,9 +1282,9 @@
 %%              Glossário              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% Glossario desenvolvido para a UECE
+%% Glossario desenvolvido para o IFCE
 \setlist{nosep}
-\newglossarystyle{glossario-uece}{%
+\newglossarystyle{glossario-ifce}{%
 	%
 	\renewenvironment{theglossary}%
 	{\vspace{-0.3cm}\begin{description}[leftmargin=0cm]\itemsep -1pt}{\end{description}}%
@@ -1305,7 +1305,7 @@
 }
 
 \newcommand{\imprimirglossario}{ %
-	\glossarystyle{glossario-uece} %	
+	\glossarystyle{glossario-ifce} %	
 	\printglossary[title=GLOSSÁRIO,toctitle=GLOSSÁRIO] %
 	\addcontentsline{toc}{chapter}{GLOSSÁRIO}
 }
@@ -1391,24 +1391,24 @@
 
 % Remove uppercase do apendice e anexos
 \makeatletter
-\ifthenelse{\boolean{ABNTEXsumario-abnt-6027-2012}}{
-	\settocpreprocessor{chapter}{%
-		\ifthenelse{\boolean{abntex@apendiceousecao}}{%
-			\let\tempf@rtoc\f@rtoc%
-			\def\f@rtoc{%
-				\texorpdfstring{\tempf@rtoc}{\tempf@rtoc}}%
-		}{
-		\let\tempf@rtoc\f@rtoc%
-		\def\f@rtoc{%
-			\texorpdfstring{\MakeTextUppercase{\tempf@rtoc}}{\tempf@rtoc}}%
-	}
-}
-\settocpreprocessor{part}{%
-	\let\tempf@rtoc\f@rtoc%
-	\def\f@rtoc{%
-		\texorpdfstring{\MakeTextUppercase{\tempf@rtoc}}{\tempf@rtoc}}%
-}
-}{}
+%\ifthenelse{\boolean{ABNTEXsumario-abnt-6027-2012}}{
+%	\settocpreprocessor{chapter}{%
+%		\ifthenelse{\boolean{abntex@apendiceousecao}}{%
+%			\let\tempf@rtoc\f@rtoc%
+%			\def\f@rtoc{%
+%				\texorpdfstring{\tempf@rtoc}{\tempf@rtoc}}%
+%		}{
+%		\let\tempf@rtoc\f@rtoc%
+%		\def\f@rtoc{%
+%			\texorpdfstring{\MakeTextUppercase{\tempf@rtoc}}{\tempf@rtoc}}%
+%	}
+%}
+%\settocpreprocessor{part}{%
+%	\let\tempf@rtoc\f@rtoc%
+%	\def\f@rtoc{%
+%		\texorpdfstring{\MakeTextUppercase{\tempf@rtoc}}{\tempf@rtoc}}%
+%}
+%}{}
 \makeatother
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

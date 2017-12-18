@@ -5,15 +5,15 @@ Título de um capítulo é chamado seção primária. Deve ser em negrito e letr
 
 Texto da Associação Brasileira de Normas Técnicas (ABNT) texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.
 
-\section{Título da Seção Secundária}
-\label{sec:titulo-da-secao-secundaria}
+\section{Fundamentação Teórica A}
+\label{sec:fundamentacao-teorica-a}
 
 \lipsum[10]
 
 	\begin{figure}[h!]
 		\centering
 		\Caption{\label{fig:exemplo-1} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo lectus et augue elementum varius.}	
-		\IFCEfig{}{
+		\UECEfig{}{
 			\fbox{\includegraphics[width=8cm]{figuras/figura-1}}
 		}{
 			\Fonte{Elaborado pelo autor}
@@ -30,7 +30,7 @@ Integer non lacinia magna. Aenean tempor lorem tellus, non sodales nisl commodo 
 	\begin{figure}[h!]
 		\centering
 		\Caption{\label{fig:exemplo-2} Maecenas luctus augue odio, sed tincidunt nunc posuere nec}	
-		\IFCEfig{}{
+		\UECEfig{}{
 			\fbox{\includegraphics[width=8cm]{figuras/figura-2}}
 		}{
 			\Fonte{Elaborado pelo autor}			
@@ -44,7 +44,7 @@ Nunc ac pretium dui. Mauris aliquam dapibus nulla ac mattis. Aenean non tortor v
 	\begin{table}[h!]	
 		\centering
 		\Caption{\label{tab:exemplo-1} Duis faucibus, enim quis tincidunt pellentesque, nisl leo varius nulla, vitae tempus dui mauris ac ante purus lorem}		
-		\IFCEtab{}{
+		\UECEtab{}{
 			\begin{tabular}{cll}
 				\toprule
 				Ranking & Exon Coverage & Splice Site Support \\
@@ -67,7 +67,7 @@ Duis faucibus, enim quis tincidunt pellentesque, nisl leo varius nulla, vitae te
 	\begin{figure}[h!]
 		\centering
 		\Caption{\label{fig:exemplo-3} Ut posuere, ex quis sagittis auctor, magna massa euismod felis}	
-		\IFCEfig{}{
+		\UECEfig{}{
 			\fbox{\includegraphics[width=8cm]{figuras/figura-2}}
 		}{
 		\Fonte{Elaborado pelo autor}			
@@ -79,7 +79,7 @@ Duis faucibus, enim quis tincidunt pellentesque, nisl leo varius nulla, vitae te
 	\begin{table}[h!]	
 		\centering
 		\Caption{\label{tab:exemplo-2} Etiam molestie, nulla a egestas aliquet, velit augue congue metus}		
-		\IFCEtab{}{
+		\UECEtab{}{
 			\begin{tabular}{ccll}
 				\toprule
 				Quisque & pharetra & tempus & vulputate \\

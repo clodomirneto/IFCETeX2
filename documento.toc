@@ -11,64 +11,60 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{18}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{18}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objetivos}{19}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{19}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\IeC {\'\i }ficos}{19}{subsection.1.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{20}{chapter.2}
-\contentsline {section}{\numberline {2.1}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica A}{20}{section.2.1}
-\contentsline {section}{\numberline {2.2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica B}{21}{section.2.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {T\IeC {\'\i }tulo da Se\IeC {\c c}\IeC {\~a}o Prim\IeC {\'a}ria}}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}T\IeC {\'\i }tulo da Se\IeC {\c c}\IeC {\~a}o Secund\IeC {\'a}ria}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica B}{20}{section.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Trabalhos Relacionados}}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Trabalho Relacionado A}{24}{section.3.1}
-\contentsline {section}{\numberline {3.2}Trabalho Relacionado B}{25}{section.3.2}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Trabalhos Relacionados}}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Trabalho Relacionado A}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Trabalho Relacionado B}{24}{section.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Metodologia}}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Exemplo de Algoritmos e Figuras}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Usando F\IeC {\'o}rmulas Matem\IeC {\'a}ticas}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}Usando Algoritmos}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}Usando C\IeC {\'o}digo-fonte}{34}{section.4.4}
-\contentsline {section}{\numberline {4.5}Usando Teoremas, Proposi\IeC {\c c}\IeC {\~o}es, etc}{35}{section.4.5}
-\contentsline {section}{\numberline {4.6}Usando Quest\IeC {\~o}es}{36}{section.4.6}
-\contentsline {section}{\numberline {4.7}Cita\IeC {\c c}\IeC {\~o}es}{36}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Documentos com tr\IeC {\^e}s autores}{36}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Documentos com mais de tr\IeC {\^e}s autores}{36}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Documentos de v\IeC {\'a}rios autores}{37}{subsection.4.7.3}
-\contentsline {section}{\numberline {4.8}Notas de Rodap\'{e}}{37}{section.4.8}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Metodologia}}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Exemplo de Algoritmos e Figuras}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Usando F\IeC {\'o}rmulas Matem\IeC {\'a}ticas}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Usando Algoritmos}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Usando C\IeC {\'o}digo-fonte}{33}{section.4.4}
+\contentsline {section}{\numberline {4.5}Usando Teoremas, Proposi\IeC {\c c}\IeC {\~o}es, etc}{34}{section.4.5}
+\contentsline {section}{\numberline {4.6}Usando Quest\IeC {\~o}es}{35}{section.4.6}
+\contentsline {section}{\numberline {4.7}Cita\IeC {\c c}\IeC {\~o}es}{35}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Documentos com tr\IeC {\^e}s autores}{35}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Documentos com mais de tr\IeC {\^e}s autores}{35}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Documentos de v\IeC {\'a}rios autores}{36}{subsection.4.7.3}
+\contentsline {section}{\numberline {4.8}Notas de Rodap\'{e}}{36}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{38}{chapter.5}
-\contentsline {section}{\numberline {5.1}Resultados do Experimento A}{38}{section.5.1}
-\contentsline {section}{\numberline {5.2}Resultados do Experimento B}{38}{section.5.2}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Resultados}}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Resultados do Experimento A}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Resultados do Experimento B}{37}{section.5.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~o}es e Trabalhos Futuros}}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Contribui\IeC {\c c}\IeC {\~o}es do Trabalho}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Limita\IeC {\c c}\IeC {\~o}es}{39}{section.6.2}
-\contentsline {section}{\numberline {6.3}Trabalhos Futuros}{40}{section.6.3}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~o}es e Trabalhos Futuros}}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}Contribui\IeC {\c c}\IeC {\~o}es do Trabalho}{38}{section.6.1}
+\contentsline {section}{\numberline {6.2}Limita\IeC {\c c}\IeC {\~o}es}{38}{section.6.2}
+\contentsline {section}{\numberline {6.3}Trabalhos Futuros}{39}{section.6.3}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {REFER\^ENCIAS}}{41}{section*.26}
+\contentsline {chapter}{\uppercase {REFER\^ENCIAS}}{40}{section*.26}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{GLOSS\IeC {\'A}RIO}{42}{chapter*.28}
+\contentsline {chapter}{GLOSS\IeC {\'A}RIO}{41}{chapter*.28}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\bfseries {Lorem Ipsum}}{43}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {Lorem Ipsum}}}{42}{appendix.A}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\bfseries {Modelo de Capa}}{44}{appendix.B}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {\bfseries {Modelo de Capa}}}{43}{appendix.B}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\bfseries {Termo de Fiel Deposit\IeC {\'a}rio}}{45}{appendix.C}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {\bfseries {Termo de Fiel Deposit\IeC {\'a}rio}}}{44}{appendix.C}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\bfseries {Exemplo de Anexo}}{46}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {Exemplo de Anexo}}}{45}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\bfseries {Din\IeC {\^a}mica das classes sociais}}{47}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {\bfseries {Din\IeC {\^a}mica das classes sociais}}}{46}{appendix.anexochapback.2}

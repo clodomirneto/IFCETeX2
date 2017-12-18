@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  18 DEC 2017 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  18 DEC 2017 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./documento.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
-(./lib/preambulo.tex
+(./preambulo.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
@@ -1417,7 +1417,7 @@ Package: paracol 2015/10/10 v1.32
 \pcol@tempbox=\box50
 \pcol@everyvbox=\toks47
 )
-(./lib/uecetex2.sty (./elementos-pos-textuais/glossario.tex)
+(./ifcetex2.sty (./elementos-pos-textuais/glossario.tex)
 (./elementos-pre-textuais/lista-de-abreviaturas-e-siglas.tex)
 
 ******************************************************
@@ -1613,17 +1613,17 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 167.
-<lib/logo-ifce.jpg, id=4, 128.48pt x 120.45pt>
-File: lib/logo-ifce.jpg Graphic file (type jpg)
-<use lib/logo-ifce.jpg>
-Package pdftex.def Info: lib/logo-ifce.jpg  used on input line 167.
+<figuras/logo-ifce.jpg, id=4, 128.48pt x 120.45pt>
+File: figuras/logo-ifce.jpg Graphic file (type jpg)
+<use figuras/logo-ifce.jpg>
+Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 167.
 (pdftex.def)             Requested size: 64.23984pt x 60.22484pt.
  [1
 
 \openout4 = `documento.ist'.
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./lib/l
-ogo-ifce.jpg>]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
+as/logo-ifce.jpg>]
 Underfull \hbox (badness 4229) in paragraph at lines 168--168
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
@@ -1801,58 +1801,55 @@ Overfull \hbox (4.40385pt too wide) in alignment at lines 51--57
 ]) (./documento.toc
 [16
 
-]) [17] (./elementos-textuais/introducao.tex [18
+]) [17] (./elementos-textuais/introducao.tex)
+(./elementos-textuais/fundamentacao-teorica.tex [18
 
 
-])
-(./elementos-textuais/fundamentacao-teorica.tex [19]
-<figuras/figura-1.jpg, id=266, 240.9pt x 211.79124pt>
+]
+<figuras/figura-1.jpg, id=249, 240.9pt x 211.79124pt>
 File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
-Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
+Package pdftex.def Info: figuras/figura-1.jpg  used on input line 20.
 (pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
 File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
-Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
+Package pdftex.def Info: figuras/figura-1.jpg  used on input line 20.
 (pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
- [20
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
+ [19
 
  <./figuras/figura-1.jpg>]
-<figuras/figura-2.jpg, id=271, 254.9525pt x 232.87pt>
+<figuras/figura-2.jpg, id=254, 254.9525pt x 232.87pt>
 File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
+Package pdftex.def Info: figuras/figura-2.jpg  used on input line 37.
 (pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
 File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
+Package pdftex.def Info: figuras/figura-2.jpg  used on input line 37.
 (pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./figuras/figura-2.jpg>]
+[20 <./figuras/figura-2.jpg>]
 File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 72.
+Package pdftex.def Info: figuras/figura-2.jpg  used on input line 74.
 (pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
 File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 72.
+Package pdftex.def Info: figuras/figura-2.jpg  used on input line 74.
 (pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[22]) (./elementos-textuais/trabalhos-relacionados.tex [23]
+ [21])
+(./elementos-textuais/trabalhos-relacionados.tex [22]
 File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
 Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
@@ -1861,7 +1858,7 @@ File: figuras/figura-1.jpg Graphic file (type jpg)
 <use figuras/figura-1.jpg>
 Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
 (pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
- [24
+ [23
 
 ]
 File: figuras/figura-2.jpg Graphic file (type jpg)
@@ -1872,15 +1869,15 @@ File: figuras/figura-2.jpg Graphic file (type jpg)
 <use figuras/figura-2.jpg>
 Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
 (pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
- [25])
-(./elementos-textuais/metodologia.tex [26]
+ [24])
+(./elementos-textuais/metodologia.tex [25]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27
+[26
 
-] [28] [29]
-<figuras/figura-3.png, id=381, 429.10312pt x 240.9pt>
+] [27] [28]
+<figuras/figura-3.png, id=364, 429.10312pt x 240.9pt>
 File: figuras/figura-3.png Graphic file (type png)
 <use figuras/figura-3.png>
 Package pdftex.def Info: figuras/figura-3.png  used on input line 122.
@@ -1889,7 +1886,7 @@ File: figuras/figura-3.png Graphic file (type png)
 <use figuras/figura-3.png>
 Package pdftex.def Info: figuras/figura-3.png  used on input line 122.
 (pdftex.def)             Requested size: 214.55103pt x 120.44969pt.
- [30 <./figuras/figura-3.png>] [31] [32] [33]
+ [29 <./figuras/figura-3.png>] [30] [31] [32]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1913,13 +1910,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (./figuras/main.cpp)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [34]
-[35] [36]) (./elementos-textuais/resultados.tex [37])
-(./elementos-textuais/conclusao.tex [38
+) [33]
+[34] [35]) (./elementos-textuais/resultados.tex [36])
+(./elementos-textuais/conclusao.tex [37
 
-] [39
+] [38
 
-]) (./documento.bbl [40]
+]) (./documento.bbl [39]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -1931,25 +1928,25 @@ Package glossaries Warning: Deprecated command \glossarystyle.
  I recommend you switch to \setglossarystyle unless you want to maintain backwa
 rd compatibility on input line 203.
 
-(./documento.gls [41
+(./documento.gls [40
 
-]) [42
+]) [41
 
 
 ] (./elementos-pos-textuais/apendice-a.tex)
-(./elementos-pos-textuais/apendice-b.tex [43
+(./elementos-pos-textuais/apendice-b.tex [42
 
 
 ])
-(./elementos-pos-textuais/apendice-c.tex [44
+(./elementos-pos-textuais/apendice-c.tex [43
 
 ])
-(./elementos-pos-textuais/anexo-a.tex [45
+(./elementos-pos-textuais/anexo-a.tex [44
 
 ])
-(./elementos-pos-textuais/anexo-b.tex [46
+(./elementos-pos-textuais/anexo-b.tex [45
 
-]) [47
+]) [46
 
 ]
 \tf@lof=\write8
@@ -1982,13 +1979,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 28154 strings out of 492985
- 447773 string characters out of 6132594
- 806752 words of memory out of 5000000
- 30832 multiletter control sequences out of 15000+600000
- 63382 words of font info for 207 fonts, out of 8000000 for 9000
+ 28135 strings out of 492985
+ 447527 string characters out of 6132594
+ 806492 words of memory out of 5000000
+ 30821 multiletter control sequences out of 15000+600000
+ 63512 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,18n,100p,2087b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,100p,2083b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -2001,10 +1998,10 @@ st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on documento.pdf (48 pages, 307082 bytes).
+Output written on documento.pdf (47 pages, 303752 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 657 compressed objects within 7 object streams
- 208 named destinations out of 1000 (max. 500000)
- 30089 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 627 compressed objects within 7 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 30057 words of extra memory for PDF output out of 35830 (max. 10000000)
 
