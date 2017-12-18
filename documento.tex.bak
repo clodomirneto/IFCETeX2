@@ -177,8 +177,8 @@
 \imprimirlistadeilustracoes
 \imprimirlistadetabelas
 \imprimirlistadequadros
-%\imprimirlistadealgoritmos
-%\imprimirlistadecodigosfonte
+\imprimirlistadealgoritmos
+\imprimirlistadecodigosfonte
 \imprimirlistadeabreviaturasesiglas
 \imprimirlistadesimbolos{elementos-pre-textuais/lista-de-simbolos}
 \imprimirsumario
@@ -203,13 +203,13 @@
 \imprimirglossario	
 \imprimirapendices
 % Adicione aqui os apendices do seu trabalho
-\input{elementos-pos-textuais/apendices/historico-de-mudancas}
-\input{elementos-pos-textuais/apendices/lorem-ipsum}
-\input{elementos-pos-textuais/apendices/termo-de-fiel-depositario}	
+\input{elementos-pos-textuais/apendice-a}
+\input{elementos-pos-textuais/apendice-b}
+\input{elementos-pos-textuais/apendice-c}	
 \imprimiranexos
 % Adicione aqui os anexos do seu trabalho
-\input{elementos-pos-textuais/anexos/exemplo-de-anexo}		
-\input{elementos-pos-textuais/anexos/dinamica-das-classes-sociais}
+\input{elementos-pos-textuais/anexo-a}		
+\input{elementos-pos-textuais/anexo-b}
 %\imprimirindice
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
