@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  18 DEC 2017 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  20 DEC 2017 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1447,23 +1447,9 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \enitdp@alineascomnumero=\count314
 \c@subalineascomnumeroi=\count315
 \enitdp@subalineascomnumero=\count316
-\c@afirmacao=\count317
-\c@argumento=\count318
-\c@teo=\count319
-\c@lema=\count320
-\c@cor=\count321
-\c@conjec=\count322
-\c@premissa=\count323
-\c@procedimento=\count324
-\c@heuristica=\count325
-\c@axioma=\count326
-\c@exem=\count327
-\c@xdefinicao=\count328
-\c@cdefinicao=\count329
-\c@propriedade=\count330
-\c@quest=\count331
-\c@quadro=\count332
-\c@loqdepth=\count333
+\c@quest=\count317
+\c@quadro=\count318
+\c@loqdepth=\count319
 \cftbeforequadroskip=\skip301
 \cftquadroindent=\skip302
 \cftquadronumwidth=\skip303
@@ -1490,7 +1476,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box51
 \AM@global@opts=\toks48
 \AM@toc@title=\toks49
-\c@AM@survey=\count334
+\c@AM@survey=\count320
 \AM@templatesizebox=\box52
 )
 \glswrite=\write4
@@ -1508,65 +1494,57 @@ Package glossaries Info: Writing glossary file documento.acn on input line 75.
 
 
 Writing index file documento.idx 
-(./documento.aux
-
-LaTeX Warning: Label `fig:exemplo-1' multiply defined.
-
-
-LaTeX Warning: Label `fig:exemplo-2' multiply defined.
-
-)
+(./documento.aux)
 \openout1 = `documento.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 161.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 138.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 161.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring OFF on input line 138.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count321
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 161.
-LaTeX Info: Redefining \ref on input line 161.
-LaTeX Info: Redefining \pageref on input line 161.
-LaTeX Info: Redefining \nameref on input line 161.
+LaTeX Info: Redefining \nameref on input line 138.
+LaTeX Info: Redefining \ref on input line 138.
+LaTeX Info: Redefining \pageref on input line 138.
+LaTeX Info: Redefining \nameref on input line 138.
 \myptabbox=\box54
 \myptabboxwidth=\skip312
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count322
 \scratchdimen=\dimen265
 \scratchbox=\box55
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count323
+\nofMParguments=\count324
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count339
+\MPscratchCnt=\count325
 \MPscratchDim=\dimen266
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
 \everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1585,8 +1563,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count342
-LaTeX Info: Redefining \microtypecontext on input line 161.
+\c@lstlisting=\count328
+LaTeX Info: Redefining \microtypecontext on input line 138.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1612,11 +1590,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 167.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 142.
 <figuras/logo-ifce.jpg, id=4, 128.48pt x 120.45pt>
 File: figuras/logo-ifce.jpg Graphic file (type jpg)
 <use figuras/logo-ifce.jpg>
-Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 167.
+Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 142.
 (pdftex.def)             Requested size: 64.23984pt x 60.22484pt.
  [1
 
@@ -1624,22 +1602,22 @@ Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 167.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 as/logo-ifce.jpg>]
-Underfull \hbox (badness 4229) in paragraph at lines 168--168
+Underfull \hbox (badness 4229) in paragraph at lines 143--143
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
-8.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
+3.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1647,20 +1625,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
-8.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
-8.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
-8.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
+3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1671,20 +1649,20 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 168.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 143.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 168.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
 
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 168--168
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 143--143
 []|  |  $[]$ 
  []
 
@@ -1692,7 +1670,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.168 \imprimirfolhaderosto{}
+l.143 \imprimirfolhaderosto{}
                               [1
 
 
@@ -1703,64 +1681,64 @@ pt>
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf  used o
-n input line 169.
+n input line 144.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf  used o
-n input line 169.
+n input line 144.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <elementos-pre-textuais/ficha-catalografica.pdf, id=19, page=1, 597.50786pt x 8
 45.04686pt>
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 169.
+ used on input line 144.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 169.
+ used on input line 144.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 169.
+ used on input line 144.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 169.
+ used on input line 144.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 169.
+ used on input line 144.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
  [2
 
  <./elementos-pre-textuais/ficha-catalografica.pdf>]
-Underfull \hbox (badness 4229) in paragraph at lines 171--171
+Underfull \hbox (badness 4229) in paragraph at lines 146--146
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
  []
 
 
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 171--171
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 146--146
 []|  |  $[]$ 
  []
 
 [3] (./elementos-pre-textuais/dedicatoria.tex)
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 172--173
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 147--148
 []|  |  $[]$
  []
 
@@ -1768,7 +1746,7 @@ Overfull \hbox (4.80414pt too wide) in paragraph at lines 172--173
 
 ]
 (./elementos-pre-textuais/epigrafe.tex)
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 174--175
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 149--150
 []|  |  $[]$
  []
 
@@ -1780,10 +1758,7 @@ Overfull \hbox (4.80414pt too wide) in paragraph at lines 174--175
 ] (./documento.lof) [9
 
 ]
-(./documento.lot) [10] (./documento.loq) [11] (./documento.loa) [12
-
-]
-(./documento.lol) [13] (./documento.acr
+(./documento.lot) [10] (./documento.loq) [11] (./documento.acr
 Overfull \hbox (4.40385pt too wide) in alignment at lines 2--51
  [] [] 
  []
@@ -1793,160 +1768,72 @@ Overfull \hbox (4.40385pt too wide) in alignment at lines 51--57
  [] [] 
  []
 
-) (./elementos-pre-textuais/lista-de-simbolos.tex [14
+) (./elementos-pre-textuais/lista-de-simbolos.tex [12
 
 
-] [15
+] [13
 
 ]) (./documento.toc
-[16
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 28.
+)
+[14
 
-]) [17] (./elementos-textuais/introducao.tex)
-(./elementos-textuais/fundamentacao-teorica.tex [18
+] (./elementos-textuais/introducao.tex)
+(./elementos-textuais/fundamentacao-teorica.tex [15
 
 
 ]
-<figuras/figura-1.jpg, id=249, 240.9pt x 211.79124pt>
-File: figuras/figura-1.jpg Graphic file (type jpg)
-<use figuras/figura-1.jpg>
-Package pdftex.def Info: figuras/figura-1.jpg  used on input line 20.
-(pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
-File: figuras/figura-1.jpg Graphic file (type jpg)
-<use figuras/figura-1.jpg>
-Package pdftex.def Info: figuras/figura-1.jpg  used on input line 20.
-(pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [19
-
- <./figuras/figura-1.jpg>]
-<figuras/figura-2.jpg, id=254, 254.9525pt x 232.87pt>
-File: figuras/figura-2.jpg Graphic file (type jpg)
-<use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 37.
-(pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
-File: figuras/figura-2.jpg Graphic file (type jpg)
-<use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 37.
-(pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 12.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 26.
 
-[20 <./figuras/figura-2.jpg>]
-File: figuras/figura-2.jpg Graphic file (type jpg)
-<use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 74.
-(pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
-File: figuras/figura-2.jpg Graphic file (type jpg)
-<use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 74.
-(pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
- [21])
-(./elementos-textuais/trabalhos-relacionados.tex [22]
-File: figuras/figura-1.jpg Graphic file (type jpg)
-<use figuras/figura-1.jpg>
-Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
-(pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
-File: figuras/figura-1.jpg Graphic file (type jpg)
-<use figuras/figura-1.jpg>
-Package pdftex.def Info: figuras/figura-1.jpg  used on input line 18.
-(pdftex.def)             Requested size: 227.62204pt x 200.12439pt.
- [23
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@underline' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 26.
+
+) (./elementos-textuais/metodologia.tex [16
+
+])
+(./elementos-textuais/conclusao.tex [17
+
+]) (./documento.bbl [18
 
 ]
-File: figuras/figura-2.jpg Graphic file (type jpg)
-<use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
-(pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
-File: figuras/figura-2.jpg Graphic file (type jpg)
-<use figuras/figura-2.jpg>
-Package pdftex.def Info: figuras/figura-2.jpg  used on input line 35.
-(pdftex.def)             Requested size: 227.62204pt x 207.91809pt.
- [24])
-(./elementos-textuais/metodologia.tex [25]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26
-
-] [27] [28]
-<figuras/figura-3.png, id=364, 429.10312pt x 240.9pt>
-File: figuras/figura-3.png Graphic file (type png)
-<use figuras/figura-3.png>
-Package pdftex.def Info: figuras/figura-3.png  used on input line 122.
-(pdftex.def)             Requested size: 214.55103pt x 120.44969pt.
-File: figuras/figura-3.png Graphic file (type png)
-<use figuras/figura-3.png>
-Package pdftex.def Info: figuras/figura-3.png  used on input line 122.
-(pdftex.def)             Requested size: 214.55103pt x 120.44969pt.
- [29 <./figuras/figura-3.png>] [30] [31] [32]
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 211.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(./figuras/main.cpp)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [33]
-[34] [35]) (./elementos-textuais/resultados.tex [36])
-(./elementos-textuais/conclusao.tex [37
-
-] [38
-
-]) (./documento.bbl [39]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-)
 
-Package glossaries Warning: Deprecated command \glossarystyle.
- I recommend you switch to \setglossarystyle unless you want to maintain backwa
-rd compatibility on input line 203.
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-(./documento.gls [40
-
-]) [41
-
+) [19
 
 ] (./elementos-pos-textuais/apendice-a.tex)
-(./elementos-pos-textuais/apendice-b.tex [42
+(./elementos-pos-textuais/anexo-a.tex [20
 
 
-])
-(./elementos-pos-textuais/apendice-c.tex [43
-
-])
-(./elementos-pos-textuais/anexo-a.tex [44
-
-])
-(./elementos-pos-textuais/anexo-b.tex [45
-
-]) [46
+]) [21
 
 ]
 \tf@lof=\write8
@@ -1958,50 +1845,35 @@ rd compatibility on input line 203.
 \tf@loq=\write10
 \openout10 = `documento.loq'.
 
-\tf@loa=\write11
-\openout11 = `documento.loa'.
+\tf@toc=\write11
+\openout11 = `documento.toc'.
 
-\tf@lol=\write12
-\openout12 = `documento.lol'.
-
-\tf@toc=\write13
-\openout13 = `documento.toc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./documento.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 218.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 28135 strings out of 492985
- 447527 string characters out of 6132594
- 806492 words of memory out of 5000000
- 30821 multiletter control sequences out of 15000+600000
- 63512 words of font info for 209 fonts, out of 8000000 for 9000
+ 27014 strings out of 492985
+ 432941 string characters out of 6132594
+ 754884 words of memory out of 5000000
+ 29958 multiletter control sequences out of 15000+600000
+ 38477 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,18n,100p,2083b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
+ 57i,18n,92p,2083b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on documento.pdf (47 pages, 303752 bytes).
+Output written on documento.pdf (22 pages, 121537 bytes).
 PDF statistics:
- 704 PDF objects out of 1000 (max. 8388607)
- 627 compressed objects within 7 object streams
- 198 named destinations out of 1000 (max. 500000)
- 30057 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 20138 words of extra memory for PDF output out of 20736 (max. 10000000)
 

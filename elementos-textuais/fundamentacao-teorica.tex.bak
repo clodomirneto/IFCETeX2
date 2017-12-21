@@ -5,15 +5,42 @@ Título de um capítulo é chamado seção primária. Deve ser em negrito e letr
 
 Texto da Associação Brasileira de Normas Técnicas (ABNT) texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.
 
-\section{Fundamentação Teórica A}
-\label{sec:fundamentacao-teorica-a}
+\newpage
+
+\section{Título da Seção Secundária}
+\label{sec:titulo-da-secao-secundaria}
+
+Texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto.
+
+\newpage
+
+\subsection{Título da seção terciária}
+\label{subsec:titulo-da-secao-terciaria}
+
+Texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto.
+
+\subsubsection{Título da seção quaternária}
+\label{subsubsec:titulo-da-secao-quaternaria}
+
+Texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+texto.
+
+\newpage
 
 \lipsum[10]
 
-	\begin{figure}[h!]
+	\begin{figure}[!h]
 		\centering
 		\Caption{\label{fig:exemplo-1} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo lectus et augue elementum varius.}	
-		\UECEfig{}{
+		\IFCEfig{}{
 			\fbox{\includegraphics[width=8cm]{figuras/figura-1}}
 		}{
 			\Fonte{Elaborado pelo autor}
@@ -27,10 +54,10 @@ Texto da Associação Brasileira de Normas Técnicas (ABNT) texto texto texto te
 
 Integer non lacinia magna. Aenean tempor lorem tellus, non sodales nisl commodo ut. Proin mattis placerat risus sit amet laoreet. Praesent sapien arcu, maximus ac fringilla efficitur, vulputate faucibus sem. Donec aliquet velit eros, sit amet elementum dolor pharetra eget. Integer eget mattis libero. Praesent ex velit, pulvinar at massa vel, fermentum dictum mauris. Ut feugiat accumsan augue, et ultrices ipsum euismod vitae
 
-	\begin{figure}[h!]
+	\begin{figure}[!h]
 		\centering
 		\Caption{\label{fig:exemplo-2} Maecenas luctus augue odio, sed tincidunt nunc posuere nec}	
-		\UECEfig{}{
+		\IFCEfig{}{
 			\fbox{\includegraphics[width=8cm]{figuras/figura-2}}
 		}{
 			\Fonte{Elaborado pelo autor}			
@@ -44,7 +71,7 @@ Nunc ac pretium dui. Mauris aliquam dapibus nulla ac mattis. Aenean non tortor v
 	\begin{table}[h!]	
 		\centering
 		\Caption{\label{tab:exemplo-1} Duis faucibus, enim quis tincidunt pellentesque, nisl leo varius nulla, vitae tempus dui mauris ac ante purus lorem}		
-		\UECEtab{}{
+		\IFCEtab{}{
 			\begin{tabular}{cll}
 				\toprule
 				Ranking & Exon Coverage & Splice Site Support \\
@@ -67,7 +94,7 @@ Duis faucibus, enim quis tincidunt pellentesque, nisl leo varius nulla, vitae te
 	\begin{figure}[h!]
 		\centering
 		\Caption{\label{fig:exemplo-3} Ut posuere, ex quis sagittis auctor, magna massa euismod felis}	
-		\UECEfig{}{
+		\IFCEfig{}{
 			\fbox{\includegraphics[width=8cm]{figuras/figura-2}}
 		}{
 		\Fonte{Elaborado pelo autor}			
@@ -79,7 +106,7 @@ Duis faucibus, enim quis tincidunt pellentesque, nisl leo varius nulla, vitae te
 	\begin{table}[h!]	
 		\centering
 		\Caption{\label{tab:exemplo-2} Etiam molestie, nulla a egestas aliquet, velit augue congue metus}		
-		\UECEtab{}{
+		\IFCEtab{}{
 			\begin{tabular}{ccll}
 				\toprule
 				Quisque & pharetra & tempus & vulputate \\
