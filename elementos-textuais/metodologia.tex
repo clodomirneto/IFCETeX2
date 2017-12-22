@@ -1,6 +1,78 @@
 \chapter{Título da Seção Primária}
 
-Texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-texto texto.
+\begin{figure}[!h]
+\centering
+\Caption{\label{fig:exemplo-1}Exemplo de Figura}	
+\IFCEfig{}{
+\fbox{\includegraphics[width=8cm]{figuras/logo-ifce-crateus}}
+}{
+\Fonte{Elaborado pelo autor}
+}	
+\end{figure}
+
+\begin{table}[!h]	
+\centering
+\Caption{\label{tab:exemplo-1} Exemplo de Tabela}		
+\IFCEtab{}{
+\begin{tabular}{cll}
+\toprule
+Texto & Texto & Texto \\
+\midrule \midrule
+Texto texto texto & Texto texto texto & Texto texto texto \\
+Texto texto texto & Texto texto texto & Texto texto texto \\
+Texto texto texto & Texto texto texto & Texto texto texto \\
+Texto texto texto & Texto texto texto & Texto texto texto \\
+Texto texto texto & Texto texto texto & Texto texto texto \\
+Texto texto texto & Texto texto texto & Texto texto texto \\
+\bottomrule
+\end{tabular}
+}{
+\Fonte{Elaborado pelo autor}
+}
+\end{table}
+
+\begin{quadro}[!h]	
+\centering
+\Caption{\label{qua:exemplo-1} Exemplo de Quadro}		
+\IFCEqua{}{
+\begin{tabular}{|c|c|l|l|}
+\hline
+Texto & Texto & Texto & Texto \\
+\hline
+Texto texto texto & Texto texto texto & Texto texto texto & Texto texto texto \\
+\hline
+Texto texto texto & Texto texto texto & Texto texto texto & Texto texto texto \\
+\hline
+Texto texto texto & Texto texto texto & Texto texto texto & Texto texto texto \\
+\hline
+\end{tabular}
+}{
+\Fonte{Elaborado pelo autor}
+}
+\end{quadro}
+
+\newpage
+
+\begin{center}
+Exemplo de Alíneas com Número  
+\end{center}
+\begin{alineascomnumero}
+\item Texto texto texto.
+\item Texto texto texto.
+\item Texto texto texto.
+\item Texto texto texto.
+\item Texto texto texto.
+\end{alineascomnumero}
+
+\begin{center}
+Exemplo de Alíneas com Ponto  
+\end{center}
+\begin{alineascomponto}
+\item Texto texto texto.
+\item Texto texto texto.
+\item Texto texto texto.
+\begin{subalineascomponto}
+\item Texto texto texto.
+\item Texto texto texto.
+\end{subalineascomponto}
+\end{alineascomponto}

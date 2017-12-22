@@ -18,17 +18,17 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {T\IeC {\'\i }tulo da Se\IeC {\c c}\IeC {\~a}o Prim\IeC {\'a}ria}}{17}{chapter.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{18}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{19}{chapter.4}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {REFER\^ENCIAS}}{19}{section*.11}
+\contentsline {chapter}{\uppercase {REFER\^ENCIAS}}{20}{section*.14}
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {\textsc {Exemplo de Ap\IeC {\^e}ndice}}}}{20}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {\textsc {Exemplo de Ap\IeC {\^e}ndice}}}}{21}{appendix.A}
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {\textsc {Exemplo de Anexo}}}}{21}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {\textsc {Exemplo de Anexo}}}}{22}{appendix.anexochapback.1}

@@ -323,7 +323,7 @@
 \SetKwBlock{Inicio}{início}{fim}
 
 % Numeracao da tabela comeca em 1
-\setcounter{table}{0}
+\setcounter{table}{-1}
 
 % Comandos para inserir figuras, tabelas e quadros
 \newcommand{\IFCEfig}[3]{\IBGEtab{#1}{#2}{#3}}
@@ -882,7 +882,7 @@
 
 	% Membro Um da banca é sempre o Orientador
 \textbf{
-	\assinatura{\imprimirorientador\  \artigoorientadorcomparenteses \\ \imprimirorientadorcentro \\  \imprimirorientadories}
+	\assinatura{\imprimirorientador\ \artigoorientadorcomparenteses \\ \imprimirorientadorcentro \\ \imprimirorientadories}
 }	
 	% Membro Dois da banca pode ser o coorientador ou outro membro
 \textbf{
@@ -927,9 +927,6 @@
 	}
 }
 
-%============================================================
-%   Definição de comandos e parâmetros específicos e configuração de ambientes de teorema
-%=======================================================
 % Retira a linha entre a citação inicial da fonte
 %\setlength{\epigraphrule}{0.0pt}  
 
@@ -1216,41 +1213,52 @@
 }
 
 % Modifica o espaçamento no sumário: Não há espaços
+
 \setlength{\cftbeforeparagraphskip}{0pt}
 \setlength{\cftbeforesubsectionskip}{0pt}
 \setlength{\cftbeforesectionskip}{0pt}
 \setlength{\cftbeforesubsubsectionskip}{0pt}
 \setlength{\cftbeforechapterskip}{0pt}
 
-%\renewcommand\cftchapterfont{\normalsize}
-\renewcommand\cftsectionfont{\normalsize\normalfont}
-\renewcommand\cftsubsectionfont{\normalsize}
-\renewcommand\cftsubsubsectionfont{\normalsize\normalfont}
-% Altera a fonte da seção quinária
-\renewcommand*{\cftparagraphfont}{\normalsize\normalfont\itshape}
-
 % Páginas do sumário não podem ser negrito.
+
 \renewcommand\cftchapterpagefont{\normalfont}
 \renewcommand\cftsectionpagefont{\normalfont}
 \renewcommand\cftsubsectionpagefont{\normalfont}
-% Altera a fonte da seção quinária
-\renewcommand\cftparagraphpagefont{\normalfont}
+
+% Altera as fontes do Sumário
+
+% Altera a fonte primária
+\renewcommand\cftchapterfont{\normalsize}
+
+% Altera a fonte secundária
+\renewcommand\cftsectionfont{\normalsize}
+
+% Altera a fonte terciária
+\renewcommand\cftsubsectionfont{\normalsize\itshape}
+
+% Altera a fonte quaternária
+\renewcommand\cftsubsubsectionfont{\normalsize\normalfont\itshape}
+
+% Altera a fonte quinária
+\renewcommand{\cftparagraphfont}{\normalsize\normalfont\itshape}
 
 % Secao Secundaria (Section): Caixa alta, Não Negrito, tamanho 12
+
 \makeatletter
-\let\oldcontentsline\contentsline
-\def\contentsline#1#2{%
-	\expandafter\ifx\csname l@#1\endcsname\l@section %
-	\expandafter\@firstoftwo %
-	\else %
-	\expandafter\@secondoftwo %
-	\fi %
-	{%
-		\oldcontentsline{#1}{\MakeTextUppercase{#2}}%
-	}{%
-	\oldcontentsline{#1}{#2}%
-}%
-}
+%\let\oldcontentsline\contentsline
+%\def\contentsline#1#2{%
+%	\expandafter\ifx\csname l@#1\endcsname\l@section %
+%	\expandafter\@firstoftwo %
+%	\else %
+%	\expandafter\@secondoftwo %
+%	\fi %
+%	{%
+%		\oldcontentsline{#1}{\MakeTextUppercase{#2}}%
+%	}{%
+%	\oldcontentsline{#1}{#2}%
+%}%
+%}
 \makeatother
 
 \makeatletter
@@ -1337,20 +1345,20 @@
 %}
 
 % Retira o negrito do apêndice e o coloca alinhado a esquerda
-\renewcommand{\printchaptertitle}[1]{%
-	\chaptitlefont%
-	\ifthenelse{\boolean{abntex@innonumchapter}}{\centering\ABNTEXchapterupperifneeded{#1}}{%
-		\ifthenelse{\boolean{abntex@apendiceousecao}}{%
-			\normalfont
-			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
+%\renewcommand{\printchaptertitle}[1]{%
+%	\chaptitlefont%
+%	\ifthenelse{\boolean{abntex@innonumchapter}}{\centering\ABNTEXchapterupperifneeded{#1}}{%
+%		\ifthenelse{\boolean{abntex@apendiceousecao}}{%
+%			\normalfont
+%			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
 			%\hspace{-0.3cm} %
-			#1 %\ABNTEXchapterupperifneeded{#1}%
-		}{%
-			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
-			\parbox[t]{\columnwidth-\chapternamenumlength}{\ABNTEXchapterupperifneeded{#1}}
-		}%
-	}    
-}
+%			#1 %\ABNTEXchapterupperifneeded{#1}%
+%		}{%
+%			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
+%			\parbox[t]{\columnwidth-\chapternamenumlength}{\ABNTEXchapterupperifneeded{#1}}
+%		}%
+%	}    
+%}
 
 \newcommand{\imprimirapendices}{ %
 	\imprimirpaginaapendices
