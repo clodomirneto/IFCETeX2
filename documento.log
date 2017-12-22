@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  22 DEC 2017 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  22 DEC 2017 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1845,9 +1845,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
 ) [20
 
 ] (./elementos-pos-textuais/apendice-a.tex)
@@ -1874,13 +1871,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./documento.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 175.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 27116 strings out of 492985
- 434762 string characters out of 6132594
- 754984 words of memory out of 5000000
- 30042 multiletter control sequences out of 15000+600000
+ 27134 strings out of 492985
+ 435062 string characters out of 6132594
+ 755465 words of memory out of 5000000
+ 30057 multiletter control sequences out of 15000+600000
  51226 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,18n,92p,2083b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1892,10 +1893,10 @@ fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on documento.pdf (23 pages, 154391 bytes).
+Output written on documento.pdf (23 pages, 156512 bytes).
 PDF statistics:
- 298 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
  26799 words of extra memory for PDF output out of 29859 (max. 10000000)
 

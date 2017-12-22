@@ -5,4 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[BORGES 2012]{Maia2011}
+\abntrefinfo{BORGES}{BORGES}{2012}
+{BORGES, J. A.~M.
+\textbf{Estudo da drogadição gestacional e óbito neonatal}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Estadual do Ceará, Fortaleza,
+  2012.}
+
+\bibitem[Knuth, Bibby e Makai 1986]{knuth}
+\abntrefinfo{Knuth, Bibby e Makai}{KNUTH; BIBBY; MAKAI}{1986}
+{KNUTH, D.; BIBBY, D.; MAKAI, I. \textbf{The texbook}. [S.l.]: Addison-Wesley,
+  1986. v.~1993.}
+
+\bibitem[Lamport 1986]{lamport1986latex}
+\abntrefinfo{Lamport}{LAMPORT}{1986}
+{LAMPORT, L. Latex: User's guide \& reference manual.
+Addison-Wesley, 1986.}
+
 \end{thebibliography}
