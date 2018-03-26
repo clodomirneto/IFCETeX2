@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.20)  22 DEC 2017 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.19)  26 MAR 2018 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **documento.tex
 (./documento.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./preambulo.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
@@ -347,7 +347,7 @@ LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -370,7 +370,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -407,40 +407,40 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count138
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count139
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count140
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen148
 \Fld@menulength=\count141
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count142
 \c@Item=\count143
 \c@Hfootnote=\count144
@@ -451,11 +451,10 @@ ass
 \c@memhycontfloat=\count145
 \c@Hpagenote=\count146
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count147
 \c@bookmark@seq@number=\count148
 
@@ -474,22 +473,21 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/11/03 3.15 The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/11/03 3.15 Babel common definitions
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/11/03 3.15 Babel switching mechanism
-)
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count150
 \U@D=\dimen151
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count151
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -498,7 +496,7 @@ File: switch.def 2017/11/03 3.15 Babel switching mechanism
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 \es@quottoks=\toks23
-\es@quotdepth=\count151
+\es@quotdepth=\count152
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
@@ -514,19 +512,19 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen152
 \enit@toks=\toks24
 \enit@inbox=\box29
-\enitdp@description=\count152
+\enitdp@description=\count153
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count153
-\calc@Bcount=\count154
+\calc@Acount=\count154
+\calc@Bcount=\count155
 \calc@Adimen=\dimen153
 \calc@Bdimen=\dimen154
 \calc@Askip=\skip187
 \calc@Bskip=\skip188
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count155
+\calc@Ccount=\count156
 \calc@Cskip=\skip189
 )
 
@@ -549,17 +547,17 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count156
+\c@abntex@bookmarkcounter=\count157
 \cftlastnumwidth=\skip190
 \chapternamenumlength=\skip191
 \ABNTEXcitacaorecuo=\skip192
-\c@alineasi=\count157
-\c@alineasii=\count158
-\enitdp@alineas=\count159
-\c@subalineasi=\count160
-\enitdp@subalineas=\count161
-\c@incisosi=\count162
-\enitdp@incisos=\count163
+\c@alineasi=\count158
+\c@alineasii=\count159
+\enitdp@alineas=\count160
+\c@subalineasi=\count161
+\enitdp@subalineas=\count162
+\c@incisosi=\count163
+\enitdp@incisos=\count164
 \ABNTEXsignwidth=\skip193
 \ABNTEXsignthickness=\skip194
 \ABNTEXsignskip=\skip256
@@ -905,7 +903,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
@@ -941,13 +939,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count164
+\inf@bad=\count165
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count165
-\leftroot@=\count166
+\uproot@=\count166
+\leftroot@=\count167
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count167
-\DOTSCASE@=\count168
+\classnum@=\count168
+\DOTSCASE@=\count169
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -956,15 +954,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen159
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count169
-\c@MaxMatrixCols=\count170
+\macc@depth=\count170
+\c@MaxMatrixCols=\count171
 \dotsspace@=\muskip11
-\c@parentequation=\count171
-\dspbrk@lvl=\count172
+\c@parentequation=\count172
+\dspbrk@lvl=\count173
 \tag@help=\toks29
-\row@=\count173
-\column@=\count174
-\maxfields@=\count175
+\row@=\count174
+\column@=\count175
+\maxfields@=\count176
 \andhelp@=\toks30
 \eqnshift@=\dimen160
 \alignsep@=\dimen161
@@ -982,7 +980,7 @@ LaTeX Info: Redefining \] on input line 2818.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip260
-\multirow@cntb=\count176
+\multirow@cntb=\count177
 \multirow@dima=\skip261
 \bigstrutjot=\dimen166
 )
@@ -990,23 +988,23 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count177
+\lst@mode=\count178
 \lst@gtempboxa=\box32
 \lst@token=\toks33
-\lst@length=\count178
+\lst@length=\count179
 \lst@currlwidth=\dimen167
-\lst@column=\count179
-\lst@pos=\count180
+\lst@column=\count180
+\lst@pos=\count181
 \lst@lostspace=\dimen168
 \lst@width=\dimen169
-\lst@newlines=\count181
-\lst@lineno=\count182
+\lst@newlines=\count182
+\lst@lineno=\count183
 \lst@maxwidth=\dimen170
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count183
-\lst@skipnumbers=\count184
+\c@lstnumber=\count184
+\lst@skipnumbers=\count185
 \lst@framebox=\box33
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
@@ -1032,33 +1030,34 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks34
-\MT@count=\count185
-LaTeX Info: Redefining \textls on input line 789.
+\MT@count=\count186
+LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen171
-LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
-\MT@listname@count=\count186
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count187
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
-LaTeX Info: Redefining \lsstyle on input line 912.
-LaTeX Info: Redefining \lslig on input line 912.
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
 \MT@outer@space=\skip262
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count187
+\c@AlgoLine=\count188
 \algocf@hangindent=\skip263
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count188
+\c@checkoddpage=\count189
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
@@ -1097,28 +1096,28 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip279
 \algotitleheightruledefault=\skip280
 \algotitleheightrule=\skip281
-\c@algocfline=\count189
-\c@algocfproc=\count190
-\c@algocf=\count191
+\c@algocfline=\count190
+\c@algocfproc=\count191
+\c@algocf=\count192
 \algocf@algoframe=\box40
 \algocf@algobox=\box41
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count192
-\c@ALC@line=\count193
-\c@ALC@rem=\count194
-\c@ALC@depth=\count266
+\c@ALC@unique=\count193
+\c@ALC@line=\count194
+\c@ALC@rem=\count266
+\c@ALC@depth=\count267
 \ALC@tlm=\skip282
 \algorithmicindent=\skip283
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count267
+\c@lips@count=\count268
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count268
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2017/11/14 v4.35 (NLCT)
@@ -1131,7 +1130,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count269
+\XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -1147,7 +1146,7 @@ Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count270
+\c@su@anzahl=\count271
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2017/11/12 v2.29 (NLCT)
@@ -1158,19 +1157,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count271
+\actioncount=\count272
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count272
-\FP@xia=\count273
-\FP@xib=\count274
-\FP@xfa=\count275
-\FP@xfb=\count276
-\FP@rega=\count277
-\FP@regb=\count278
-\FP@regs=\count279
-\FP@times=\count280
+\FP@xs=\count273
+\FP@xia=\count274
+\FP@xib=\count275
+\FP@xfa=\count276
+\FP@xfb=\count277
+\FP@rega=\count278
+\FP@regb=\count279
+\FP@regs=\count280
+\FP@times=\count281
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1189,7 +1188,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count281
+\FPseed=\count282
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1201,25 +1200,25 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks39
-\@dtl@tmpcount=\count282
+\@dtl@tmpcount=\count283
 \dtl@tmplength=\skip284
-\dtl@sortresult=\count283
-\@dtl@numgrpsepcount=\count284
-\@dtl@datatype=\count285
-\dtl@codeA=\count286
-\dtl@codeB=\count287
-\@dtl@foreach@level=\count288
+\dtl@sortresult=\count284
+\@dtl@numgrpsepcount=\count285
+\@dtl@datatype=\count286
+\dtl@codeA=\count287
+\dtl@codeB=\count288
+\@dtl@foreach@level=\count289
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
 Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tracklang/tracklang.sty
-Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
+Package: tracklang 2018/02/21 v1.3.5 (NLCT) Track Languages
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/tracklang/tracklang.tex))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/translator/translator.sty
-Package: translator 2017/11/30 v1.11
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-english/glossaries-eng
 lish.ldf
@@ -1237,7 +1236,7 @@ File: glossaries-pt-BR.ldf 2014/11/23 v1.0
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries-portuges/glossaries-po
 rtuges-utf8.ldf))
-\gls@level=\count289
+\gls@level=\count290
 \@gls@tmpb=\toks40
 \gls@tmplen=\skip285
 
@@ -1271,16 +1270,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip288
 \LTpre=\skip289
 \LTpost=\skip290
-\LTchunksize=\count290
+\LTchunksize=\count291
 \LTcapwidth=\dimen178
 \LT@head=\box42
 \LT@firsthead=\box43
 \LT@foot=\box44
 \LT@lastfoot=\box45
-\LT@cols=\count291
-\LT@rows=\count292
-\c@LT@tables=\count293
-\c@LT@chunks=\count294
+\LT@cols=\count292
+\LT@rows=\count293
+\c@LT@tables=\count294
+\c@LT@chunks=\count295
 \LT@p@ftn=\toks45
 )
 \glsdescwidth=\skip291
@@ -1291,7 +1290,7 @@ sty
 Package: glossary-super 2017/11/14 v4.35 (NLCT)
  (/usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count295
+\c@tracingst=\count296
 \ST@wd=\dimen179
 \ST@rightskip=\skip293
 \ST@leftskip=\skip294
@@ -1334,7 +1333,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen256
 \caption@hangindent=\dimen257
 )
-\c@ContinuedFloat=\count296
+\c@ContinuedFloat=\count297
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1350,8 +1349,8 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 (/usr/local/texlive/2017/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip297
 \ABCIauxlen=\skip298
-\c@ABCIaux=\count297
-\c@ABCImax=\count298
+\c@ABCIaux=\count298
+\c@ABCImax=\count299
 \biblabelsep=\skip299
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
@@ -1395,16 +1394,16 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2015/10/10 v1.32 
-\pcol@currcol=\count299
-\pcol@nextcol=\count300
-\pcol@ncol=\count301
-\pcol@ncolleft=\count302
-\pcol@page=\count303
-\pcol@basepage=\count304
-\pcol@toppage=\count305
-\pcol@footnotebase=\count306
-\pcol@nfootnotes=\count307
-\pcol@mcid=\count308
+\pcol@currcol=\count300
+\pcol@nextcol=\count301
+\pcol@ncol=\count302
+\pcol@ncolleft=\count303
+\pcol@page=\count304
+\pcol@basepage=\count305
+\pcol@toppage=\count306
+\pcol@footnotebase=\count307
+\pcol@nfootnotes=\count308
+\pcol@mcid=\count309
 \pcol@prevdepth=\dimen258
 \pcol@colht=\dimen259
 \pcol@textfloatsep=\dimen260
@@ -1439,17 +1438,17 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\enitdp@alineascomponto=\count309
-\c@subalineascompontoi=\count310
-\enitdp@subalineascomponto=\count311
-\c@alineascomnumeroi=\count312
-\c@alineascomnumeroii=\count313
-\enitdp@alineascomnumero=\count314
-\c@subalineascomnumeroi=\count315
-\enitdp@subalineascomnumero=\count316
-\c@quest=\count317
-\c@quadro=\count318
-\c@loqdepth=\count319
+\enitdp@alineascomponto=\count310
+\c@subalineascompontoi=\count311
+\enitdp@subalineascomponto=\count312
+\c@alineascomnumeroi=\count313
+\c@alineascomnumeroii=\count314
+\enitdp@alineascomnumero=\count315
+\c@subalineascomnumeroi=\count316
+\enitdp@subalineascomnumero=\count317
+\c@quest=\count318
+\c@quadro=\count319
+\c@loqdepth=\count320
 \cftbeforequadroskip=\skip301
 \cftquadroindent=\skip302
 \cftquadronumwidth=\skip303
@@ -1476,7 +1475,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box51
 \AM@global@opts=\toks48
 \AM@toc@title=\toks49
-\c@AM@survey=\count320
+\c@AM@survey=\count321
 \AM@templatesizebox=\box52
 )
 \glswrite=\write4
@@ -1497,54 +1496,54 @@ Writing index file documento.idx
 (./documento.aux)
 \openout1 = `documento.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 132.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 134.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 132.
+Package hyperref Info: Link coloring OFF on input line 134.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count321
+\c@section@level=\count322
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 132.
-LaTeX Info: Redefining \ref on input line 132.
-LaTeX Info: Redefining \pageref on input line 132.
-LaTeX Info: Redefining \nameref on input line 132.
+LaTeX Info: Redefining \nameref on input line 134.
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
 \myptabbox=\box54
 \myptabboxwidth=\skip312
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
+\scratchcounter=\count323
 \scratchdimen=\dimen265
 \scratchbox=\box55
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\nofMPsegments=\count324
+\nofMParguments=\count325
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count325
+\MPscratchCnt=\count326
 \MPscratchDim=\dimen266
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
 \everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1563,8 +1562,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count328
-LaTeX Info: Redefining \microtypecontext on input line 132.
+\c@lstlisting=\count329
+LaTeX Info: Redefining \microtypecontext on input line 134.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1590,11 +1589,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 138.
 <figuras/logo-ifce.jpg, id=4, 128.48pt x 120.45pt>
 File: figuras/logo-ifce.jpg Graphic file (type jpg)
 <use figuras/logo-ifce.jpg>
-Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 136.
+Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 138.
 (pdftex.def)             Requested size: 64.23984pt x 60.22484pt.
  [1
 
@@ -1602,22 +1601,22 @@ Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 136.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 as/logo-ifce.jpg>]
-Underfull \hbox (badness 4229) in paragraph at lines 137--137
+Underfull \hbox (badness 4229) in paragraph at lines 139--139
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 
  []
 
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
-7.
+9.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1626,19 +1625,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
-7.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
-7.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
-7.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1649,20 +1648,20 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 137.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 139.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 139.
 
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 137--137
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 139--139
 []|  |  $[]$ 
  []
 
@@ -1670,7 +1669,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.137 \imprimirfolhaderosto{}
+l.139 \imprimirfolhaderosto{}
                               [1
 
 
@@ -1681,64 +1680,64 @@ pt>
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf  used o
-n input line 138.
+n input line 140.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf  used o
-n input line 138.
+n input line 140.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <elementos-pre-textuais/ficha-catalografica.pdf, id=19, page=1, 597.50786pt x 8
 45.04686pt>
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 138.
+ used on input line 140.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 138.
+ used on input line 140.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 138.
+ used on input line 140.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 138.
+ used on input line 140.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 138.
+ used on input line 140.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
  [2
 
  <./elementos-pre-textuais/ficha-catalografica.pdf>]
-Underfull \hbox (badness 4229) in paragraph at lines 140--140
+Underfull \hbox (badness 4229) in paragraph at lines 142--142
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 140--140
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 142--142
 []|  |  $[]$ 
  []
 
 [3] (./elementos-pre-textuais/dedicatoria.tex)
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 141--142
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 143--144
 []|  |  $[]$
  []
 
@@ -1746,7 +1745,7 @@ Overfull \hbox (4.80414pt too wide) in paragraph at lines 141--142
 
 ]
 (./elementos-pre-textuais/epigrafe.tex)
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 143--144
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 145--146
 []|  |  $[]$
  []
 
@@ -1866,22 +1865,22 @@ bibitemlist
 \tf@toc=\write11
 \openout11 = `documento.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./documento.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 177.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 27134 strings out of 492985
- 435062 string characters out of 6132594
- 755465 words of memory out of 5000000
- 30057 multiletter control sequences out of 15000+600000
+ 27159 strings out of 492982
+ 435492 string characters out of 6132536
+ 756888 words of memory out of 5000000
+ 30084 multiletter control sequences out of 15000+600000
  51226 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,18n,92p,2083b,550s stack positions out of 5000i,500n,10000p,200000b,80000s

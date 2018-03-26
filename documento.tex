@@ -30,10 +30,12 @@
 %%%	makeindex documento.idx												%%%
 %%%	pdflatex documento.tex												%%%
 %%%	pdflatex documento.tex												%%%
+%%%																		%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|bibtex %.aux|makeglossaries %.glo|makeindex %.aux|pdflatex -synctex=1 -interaction=nonstopmode %.tex|pdflatex -synctex=1 -interaction=nonstopmode %.tex|evince %.pdf															%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%          	Configurações do ifcetex	           					%%%
+%%%          	Configurações do IFCETeX2	           					%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{preambulo}
