@@ -15,7 +15,7 @@
 ##                                                                    ##
 ## The Current Maintainer of this work is Clodomir Silva Lima Neto    ##
 ##                                                                    ##
-## Project available on: https://github.com/clodomirneto/ifcetex      ##
+## Project available on: https://github.com/clodomirneto/IFCETeX2     ##
 ##                                                                    ##
 ## Further information about abnTeX2                                  ##
 ## are available on http://abntex2.googlecode.com/                    ##
@@ -29,7 +29,7 @@ all: compile
 compile:
 	@echo "*********************************************************"
 	@echo "*                                                       *"
-	@echo "* Package 'ifcetex' Release 1.0 -- 17 de Dezembro 2017 *"
+	@echo "* Package 'ifcetex2' Release 1.0 -- 17 de Dezembro 2017 *"
 	@echo "*                                                       *"
 	@echo "*********************************************************"
 	@echo "Compilando..."
