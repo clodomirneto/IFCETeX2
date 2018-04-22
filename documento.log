@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.19)  26 MAR 2018 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.19)  22 APR 2018 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1496,26 +1496,26 @@ Writing index file documento.idx
 (./documento.aux)
 \openout1 = `documento.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 136.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 145.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 136.
+Package hyperref Info: Link coloring OFF on input line 145.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1526,10 +1526,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 136.
-LaTeX Info: Redefining \ref on input line 136.
-LaTeX Info: Redefining \pageref on input line 136.
-LaTeX Info: Redefining \nameref on input line 136.
+LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
 \myptabbox=\box54
 \myptabboxwidth=\skip312
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1563,7 +1563,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count329
-LaTeX Info: Redefining \microtypecontext on input line 136.
+LaTeX Info: Redefining \microtypecontext on input line 145.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1589,11 +1589,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 149.
 <figuras/logo-ifce.jpg, id=4, 128.48pt x 120.45pt>
 File: figuras/logo-ifce.jpg Graphic file (type jpg)
 <use figuras/logo-ifce.jpg>
-Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 140.
+Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 149.
 (pdftex.def)             Requested size: 64.23984pt x 60.22484pt.
  [1
 
@@ -1601,22 +1601,22 @@ Package pdftex.def Info: figuras/logo-ifce.jpg  used on input line 140.
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 as/logo-ifce.jpg>]
-Underfull \hbox (badness 4229) in paragraph at lines 141--141
+Underfull \hbox (badness 4229) in paragraph at lines 150--150
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
-1.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 15
+0.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1624,20 +1624,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
-1.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 15
+0.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
-1.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 15
+0.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
-1.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 15
+0.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1648,20 +1648,20 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 141.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 150.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 150.
 
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 141--141
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 150--150
 []|  |  $[]$ 
  []
 
@@ -1669,7 +1669,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 \imprimirfolhaderosto{}
+l.150 \imprimirfolhaderosto{}
                               [1
 
 
@@ -1680,64 +1680,64 @@ pt>
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf  used o
-n input line 142.
+n input line 151.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf  used o
-n input line 142.
+n input line 151.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <elementos-pre-textuais/ficha-catalografica.pdf, id=19, page=1, 597.50786pt x 8
 45.04686pt>
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 142.
+ used on input line 151.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 142.
+ used on input line 151.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 142.
+ used on input line 151.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 142.
+ used on input line 151.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: elementos-pre-textuais/ficha-catalografica.pdf Graphic file (type pdf)
 <use elementos-pre-textuais/ficha-catalografica.pdf, page 1>
 Package pdftex.def Info: elementos-pre-textuais/ficha-catalografica.pdf , page1
- used on input line 142.
+ used on input line 151.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
  [2
 
  <./elementos-pre-textuais/ficha-catalografica.pdf>]
-Underfull \hbox (badness 4229) in paragraph at lines 144--144
+Underfull \hbox (badness 4229) in paragraph at lines 153--153
 \T1/ptm/b/n/12 e Tec-no-lo-gia do Ce-ará, como re-qui-sito
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--144
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 
  []
 
 
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 144--144
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 153--153
 []|  |  $[]$ 
  []
 
 [3] (./elementos-pre-textuais/dedicatoria.tex)
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 145--146
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 154--155
 []|  |  $[]$
  []
 
@@ -1745,7 +1745,7 @@ Overfull \hbox (4.80414pt too wide) in paragraph at lines 145--146
 
 ]
 (./elementos-pre-textuais/epigrafe.tex)
-Overfull \hbox (4.80414pt too wide) in paragraph at lines 147--148
+Overfull \hbox (4.80414pt too wide) in paragraph at lines 156--157
 []|  |  $[]$
  []
 
@@ -1865,16 +1865,16 @@ bibitemlist
 \tf@toc=\write11
 \openout11 = `documento.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (./documento.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 188.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
  27159 strings out of 492982

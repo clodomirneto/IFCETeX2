@@ -30,11 +30,20 @@
 %%%	makeindex documento.idx												%%%
 %%%	pdflatex documento.tex												%%%
 %%%	pdflatex documento.tex												%%%
+%%%	documento.pdf 														%%%
+%%% 																	%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|					%%%
+%%% bibtex %.aux|														%%%
+%%% makeglossaries %.glo|												%%%
+%%% makeindex %.aux|													%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex| 				%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|					%%%
+%%% evince %.pdf														%%%
 %%%																		%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|bibtex %.aux|makeglossaries %.glo|makeindex %.aux|pdflatex -synctex=1 -interaction=nonstopmode %.tex|pdflatex -synctex=1 -interaction=nonstopmode %.tex|evince %.pdf															%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%% make -f Makefile													%%%
+%%%																		%%%
 %%% git status + git add . + git commit + git push						%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%          	Configurações do IFCETeX2	           					%%%
