@@ -36,7 +36,7 @@
 \usepackage[utf8]{inputenc}                         % Acentuação direta
 \usepackage[T1]{fontenc}                            % Codificação da fonte em 8 bits
 \usepackage{graphicx}                               % Inserir figuras
-\usepackage{amsfonts, amssymb, amsmath}             % Fonte e símbolos matemáticos
+\usepackage{amsfonts,amssymb,amsmath,amsthm}             % Fonte e símbolos matemáticos
 \usepackage{booktabs}                               % Comandos para tabelas
 \usepackage{verbatim}                               % Texto é interpretado como escrito no documento
 \usepackage{multirow, array}                        % Múltiplas linhas e colunas em tabelas
@@ -75,3 +75,18 @@
 \makeglossaries
 % Gera o Indice do documento
 \makeindex
+
+% Teoremas
+\theoremstyle{definition}
+\newtheorem{definition}{Definição}
+\newtheorem{theorem}{Teorema}
+\newtheorem{propriety}{Propriedade}
+\newtheorem{remark}{Observação}
+\newtheorem{example}{Exemplo}
+%\newtheorem{proof}{Prova}
+
+% Provas
+
+%\newenvironment{prova}[1][Prova]{\noindent\textbf{#1.} }{\hfill\rule{0.5em}{0.5em}}
+%\newenvironment{dem}[1][Demonstra\c c\~ao]{\noindent\textbf{#1.} }{\hfill\rule{2mm}{2mm}}
+%\newenvironment{exm}{\noindent{\textbf{Exemplo:}}}{$\diamond$}
