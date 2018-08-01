@@ -31,18 +31,10 @@
 %%%	pdflatex documento.tex												%%%
 %%%	pdflatex documento.tex												%%%
 %%%																		%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|					%%%
-%%% bibtex %.aux|														%%%
-%%% makeglossaries %.glo|												%%%
-%%% makeindex %.aux|													%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex| 				%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|					%%%
-%%% evince %.pdf														%%%
-%%%																		%%%
-%%% make -f Makefile													%%%
+%%% 																	%%%
+%%% Texmaker - Opções - Configurar o Texmaker - Compilar - Usuário		%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|bibtex %.aux|makeglossaries %.glo|makeindex %.aux|pdflatex -synctex=1 -interaction=nonstopmode %.tex|pdflatex -synctex=1 -interaction=nonstopmode %.tex|evince %.pdf								%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%% git status + git add . + git commit + git push						%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%          	Configurações do IFCETeX2	           					%%%
@@ -100,10 +92,10 @@
 
 % Informação relacionadas ao trabalho
 
-\autor{Nome Sobrenome}
-\titulo{Título do Trabalho}
-\data{Ano}
-\local{Cidade}
+\autor{Francisco Elenilton Oliveira Paiva}
+\titulo{A Irracionalidade e Transcendência do Número de Euler}
+\data{2017}
+\local{Crateús}
 
 % Data de Aprovação
 
@@ -111,7 +103,7 @@
 
 % Informação sobre o Orientador
 
-\orientador{Nome do seu Orientador}
+\orientador{Elano Caio do Nascimento}
 \orientadories{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
 \orientadorcentro{Campus Crateús}
 \orientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
@@ -125,10 +117,10 @@
 
 % Informação sobre a banca
 
-\membrodabancadois{Membro da Banca Dois}
+\membrodabancadois{João Luiz Batista de Melo Júnior}
 \membrodabancadoiscentro{Campus Crateús}
 \membrodabancadoisies{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
-\membrodabancatres{Membro da Banca Três}
+\membrodabancatres{Diego Alves da Costa}
 \membrodabancatrescentro{Campus Crateús}
 \membrodabancatresies{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
 \membrodabancaquatro{Membro da Banca Quatro}
@@ -168,11 +160,11 @@
 
 \textual
 \input{elementos-textuais/introducao}
-\input{elementos-textuais/fundamentacao-teorica}
-%\input{elementos-textuais/trabalhos-relacionados}
-\input{elementos-textuais/metodologia}
+\input{elementos-textuais/cap1}
+\input{elementos-textuais/cap2}
+\input{elementos-textuais/cap3}
 %\input{elementos-textuais/resultados}
-\input{elementos-textuais/conclusao}
+%\input{elementos-textuais/conclusao}
 	
 % Elementos pós-textuais
 

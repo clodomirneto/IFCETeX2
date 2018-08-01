@@ -29,7 +29,7 @@ all: compile
 compile:
 	@echo "*********************************************************"
 	@echo "*                                                       *"
-	@echo "* Package 'ifcetex2' Release 1.0 -- 17 de Dezembro 2017 *"
+	@echo "* Package 'ifcetex' Release 1.0 -- 17 de Dezembro 2017 *"
 	@echo "*                                                       *"
 	@echo "*********************************************************"
 	@echo "Compilando..."

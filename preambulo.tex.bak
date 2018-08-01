@@ -89,5 +89,5 @@
 %PROVAS
 
 \newenvironment{prova}[1][Prova]{\noindent\textbf{#1.} }{\hfill\rule{0.5em}{0.5em}}
-\newenvironment{exm}{\noindent{\textbf{Exemplo:}}}{$\diamond$}
+\newenvironment{exm}{\noindent{\textbf{•} Exemplo: }}{$\diamond$}
 \newenvironment{dem}[1][Demonstra\c c\~ao]{\noindent\textbf{#1.} }{\hfill\rule{2mm}{2mm}}
