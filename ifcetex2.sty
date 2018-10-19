@@ -31,9 +31,8 @@
 % Definições
 
 % Importa o arquivo com as entradas do glassario
-\input{elementos-pos-textuais/glossario}
-\input{elementos-pre-textuais/lista-de-abreviaturas-e-siglas}
-
+\input{elementos-pre-textuais/lista-de-siglas}
+%\input{elementos-pos-textuais/glossario}
 
 % Formatação das Páginas
 
@@ -74,7 +73,7 @@
 \setafterparaskip{\onelineskip}
 
 % Define a distância da margem esquerda do parágrafo
-\setlength{\parindent}{2cm}
+\setlength{\parindent}{1.25cm}
 
 % Estilo do chapter 1 (fonte primária)
 \renewcommand{\ABNTEXchapterfont}{\bfseries}
@@ -93,15 +92,15 @@
 \renewcommand{\ABNTEXsubsubsectionfontsize}{\normalsize}
 
 % Estilo da subsection 1.1.1.1 (fonte quinária)
-\renewcommand{\ABNTEXsubsubsubsectionfont}{\normalfont\itshape}
+\renewcommand{\ABNTEXsubsubsubsectionfont}{\normalfont}
 \renewcommand{\ABNTEXsubsubsubsectionfontsize}{\normalsize}
 
 % Margens da legenda da figura e da tabela
 \captionsetup{
-	justification=centering,% Centraliza o caption
+	justification=justified, % Justificar o caption
 	skip=0pt,                %Retira o espaco entre a figura/tabela e o caption
-	labelfont=bf, % A palavra 'Figure 1' agora eh negrito
-	font=bf	% O texto depois de 'Figure 1' agora eh negrito
+	%labelfont=bf, % A palavra 'Figure 1' agora eh negrito
+	%font=bf	% O texto depois de 'Figure 1' agora eh negrito
 }
 
 % Os items da lista de figura agora sao negritos
@@ -110,7 +109,7 @@
 % Os items da lista de tabela e quadro agora sao negritos
 %\renewcommand{\cfttablefont}{\bfseries}
 
-% Remove o ponto final de cada entrada da lista de abreviaturas e siglas
+% Remove o ponto final de cada entrada da lista de siglas
 \renewcommand{\glspostdescription}{}
 
 % Espaçamento entre o texto e a legenda
@@ -132,8 +131,7 @@
 %\SetKwFor{Para}{para}{fa\c{c}a}{fim para}
 %\SetKwBlock{Inicio}{inicio}{fim}
 
-% Na versao mais nova do algorithm2e (versao 5.1) aparentemente foram adicionados
-% algumas palavras com acentuacao e por isso estava causando erro no template. 
+% Na versao mais nova do algorithm2e (versao 5.1) aparentemente foram adicionados algumas palavras com acentuacao e por isso estava causando erro no template. 
 % Os comandos a seguir foram copiados da versao mais nova para tentar resolver o problema.
 \SetKwInput{Entrada}{Entrada}%
 \SetKwInput{Saida}{Sa\'{i}da}%
@@ -170,20 +168,28 @@
 \setlength{\intextsep}{18pt plus 2pt minus 2pt}
 
 \newcommand{\Caption}[1]{ %
-	\begin{Spacing}{1.5} %
+	\begin{Spacing}{1} %
        	\caption{#1} %
    	\end{Spacing} %
 }
 
 \newcommand{\Fonte}[2][\fontename]{ %
 %	\vspace{-3pt}
-	\vspace{8pt}
- 		\fonte[\normalfont{#1}]{\normalfont{#2}}
- 	\vspace{-5pt}
+\begin{Spacing}{1} %
+       	\fonte[\normalfont{#1}]{\normalfont{#2}}
+   	\end{Spacing} %
+	%\vspace{8pt}
+ 		%\fonte[\normalfont{#1}]{\normalfont{#2}}
+ 	%\vspace{-5pt}
 }
 
 % Cria o comando para fazer notas e anotacoes na figura e na tabela
-\newcommand{\Nota}[2][\notaname]{\Fonte[#1]{#2}} 
+\newcommand{\Nota}[2][\notaname]{
+\begin{Spacing}{1} %
+       	\fonte[\normalfont{#1}]{\normalfont{#2}}
+   	\end{Spacing} %
+%\Fonte[#1]{#2}
+} 
 
 %Remove as bordas do hyperlinks.
 \newcommand{\removerbordasdohyperlink}[1]{%
@@ -204,7 +210,7 @@
 	}
 }
 
-% Adiciona o sexo do orientador e do co-orientador no documento atraves do artigo "a".
+% Adiciona o sexo do orientador e do coorientador no documento atraves do artigo "a".
 
 \provideboolean{ifcetex2@orientadorfeminino}
 \provideboolean{ifcetex2@coorientadorfeminino}
@@ -234,9 +240,9 @@
 
 \newcommand{\artigocoorientador}{ %
 	\ifthenelse{\boolean{ifcetex2@coorientadorfeminino}}{ %
-		Co-Orientadora\ignorespaces%
+		Coorientadora\ignorespaces%
 	}{ %
-		Co-Orientador\ignorespaces%
+		Coorientador\ignorespaces%
 	} %
 }
 
@@ -250,9 +256,9 @@
 
 \newcommand{\artigocoorientadorcomparenteses}{ %
 	\ifthenelse{\boolean{ifcetex2@coorientadorfeminino}}{ %
-		(Co-Orientadora)\ignorespaces%
+		(Coorientadora)\ignorespaces%
 	}{ %
-		(Co-Orientador)\ignorespaces%
+		(Coorientador)\ignorespaces%
 	} %
 }
 
@@ -267,18 +273,18 @@
 	}
 }
 
-% Determina o tipo do trabalho apresentado
 % Definicao das variaveis
+
 \provideboolean{ifcetex2@ehtccgraduacao}
 \provideboolean{ifcetex2@ehtccespecializacao}
 \provideboolean{ifcetex2@ehdissertacao}
 \provideboolean{ifcetex2@ehtese}
 
 % Valores Iniciais
-\setboolean{ifcetex2@ehtccgraduacao}{false}
-\setboolean{ifcetex2@ehtccespecializacao}{false}
-\setboolean{ifcetex2@ehdissertacao}{true}
 \setboolean{ifcetex2@ehtese}{false}
+\setboolean{ifcetex2@ehdissertacao}{false}
+\setboolean{ifcetex2@ehtccespecializacao}{false}
+\setboolean{ifcetex2@ehtccgraduacao}{true}
 
 \newcommand{\trabalhoacademico}[1]{
 	\setboolean{ifcetex2@ehtccgraduacao}{false}
@@ -310,7 +316,7 @@
 	\hypersetup{ %
 		pdftitle={\imprimirtitulo},%
 		pdfauthor={\imprimirautor}, %
-		pdfsubject={Powered by ifcetex - Acesse https://github.com/clodomirneto/IFCETeX2} %
+		pdfsubject={Powered by IFCETeX2 - Acesse https://github.com/clodomirneto/IFCETeX2} %
 	}%
 	% Define a altura das equacoes matematicas
 %	\abovedisplayskip=-1pt plus 3pt minus 9pt
@@ -354,147 +360,223 @@
 % Verifica se uma determinada macro está vazia
 \newcommand{\ifempty}[3]{\ifthenelse{\equal{#1}{}}{#2}{#3}}
 
-% Variáveis
+% Criação e Impressão das Variáveis
 
 \newcommand{\ies}{\def \@ies}
-\newcommand{\iessigla}{\def \@iessigla}
-\newcommand{\centro}{\def \@centro}
-\newcommand{\programamestrado}{\def \@programamestrado}
-\newcommand{\programadoutorado}{\def \@programadoutorado}
-\newcommand{\nomedomestrado}{\def \@mestrado}
-\newcommand{\nomedodoutorado}{\def \@doutorado}
-\newcommand{\mestreem}{\def \@mestreem}
-\newcommand{\doutorem}{\def \@doutorem}
-\newcommand{\areadeconcentracaomestrado}{\def \@areadeconcentracaomestrado}
-\newcommand{\areadeconcentracaodoutorado}{\def \@areadeconcentracaodoutorado}
-\newcommand{\dataaprovacao}{\def \@dataaprovacao}
-\newcommand{\epigrafee}{\def \@epigrafee}
-\newcommand{\autordaepigrafe}{\def \@autordaepigrafe}
-\newcommand{\graduacaoem}{\def \@graduacaoem}
-\newcommand{\especializacaoem}{\def \@especializacaoem}
-\newcommand{\habilitacao}{\def \@habilitacao}
-\newcommand{\membrodabancadois}{\def \@membrodabancadois}
-\newcommand{\membrodabancatres}{\def \@membrodabancatres}
-\newcommand{\membrodabancaquatro}{\def \@membrodabancaquatro}
-\newcommand{\membrodabancacinco}{\def \@membrodabancacinco}
-\newcommand{\membrodabancaseis}{\def \@membrodabancaseis}
-\newcommand{\membrodabancaumies}{\def \@membrodabancaumies}
-\newcommand{\membrodabancadoisies}{\def \@membrodabancadoisies}
-\newcommand{\membrodabancatresies}{\def \@membrodabancatresies}
-\newcommand{\membrodabancaquatroies}{\def \@membrodabancaquatroies}
-\newcommand{\membrodabancacincoies}{\def \@membrodabancacincoies}
-\newcommand{\membrodabancaseisies}{\def \@membrodabancaseisies}
-\newcommand{\membrodabancadoiscentro}{\def \@membrodabancadoiscentro}
-\newcommand{\membrodabancatrescentro}{\def \@membrodabancatrescentro}
-\newcommand{\membrodabancaquatrocentro}{\def \@membrodabancaquatrocentro}
-\newcommand{\membrodabancacincocentro}{\def \@membrodabancacincocentro}
-\newcommand{\membrodabancaseiscentro}{\def \@membrodabancaseiscentro}
-\newcommand{\orientadories}{\def \@orientadories}
-\newcommand{\orientadorcentro}{\def \@orientadorcentro}
-\newcommand{\coorientadories}{\def \@coorientadories}
-\newcommand{\coorientadorcentro}{\def \@coorientadorcentro}
-
-% Imprimir as Variáveis
-
 \newcommand{\imprimiries}{\@ies}
+
+\newcommand{\iessigla}{\def \@iessigla}
 \newcommand{\imprimiriessigla}{\@iessigla}
+
+\newcommand{\centro}{\def \@centro}
 \newcommand{\imprimircentro}{\@centro}
-\newcommand{\imprimirprogramamestrado}{\@programamestrado}
+
+\newcommand{\programadoutorado}{\def \@programadoutorado}
 \newcommand{\imprimirprogramadoutorado}{\@programadoutorado}
-\newcommand{\imprimirmestrado}{\@mestrado}
-\newcommand{\imprimirdoutorado}{\@doutorado}
-\newcommand{\imprimirmestreem}{\@mestreem}
+
+\newcommand{\nomedodoutorado}{\def \@doutorado}
+\newcommand{\imprimirnomedodoutorado}{\@doutorado}
+
+\newcommand{\doutorem}{\def \@doutorem}
 \newcommand{\imprimirdoutorem}{\@doutorem}
-\newcommand{\imprimirareadeconcentracaomestrado}{\@areadeconcentracaomestrado}
+
+\newcommand{\areadeconcentracaodoutorado}{\def \@areadeconcentracaodoutorado}
 \newcommand{\imprimirareadeconcentracaodoutorado}{\@areadeconcentracaodoutorado}
-\newcommand{\imprimirdataaprovacao}{\@dataaprovacao}
-\newcommand{\imprimirepigrafee}{\@epigrafee}
-\newcommand{\imprimirautordaepigrafe}{\@autordaepigrafe}
-\newcommand{\imprimirgraduacaoem}{\@graduacaoem}
+
+\newcommand{\programamestrado}{\def \@programamestrado}
+\newcommand{\imprimirprogramamestrado}{\@programamestrado}
+
+\newcommand{\nomedomestrado}{\def \@mestrado}
+\newcommand{\imprimirnomedomestrado}{\@mestrado}
+
+\newcommand{\mestreem}{\def \@mestreem}
+\newcommand{\imprimirmestreem}{\@mestreem}
+
+\newcommand{\areadeconcentracaomestrado}{\def \@areadeconcentracaomestrado}
+\newcommand{\imprimirareadeconcentracaomestrado}{\@areadeconcentracaomestrado}
+
+\newcommand{\especializacaoem}{\def \@especializacaoem}
 \newcommand{\imprimirespecializacaoem}{\@especializacaoem}
+
+\newcommand{\areadeconcentracaoespecializacao}{\def \@areadeconcentracaoespecializacao}
+\newcommand{\imprimirareadeconcentracaoespecializacao}{\@areadeconcentracaoespecializacao}
+
+\newcommand{\habilitacaoesp}{\def \@habilitacaoesp}
+\newcommand{\imprimirhabilitacaoesp}{\@habilitacaoesp}
+
+\newcommand{\graduacaoem}{\def \@graduacaoem}
+\newcommand{\imprimirgraduacaoem}{\@graduacaoem}
+
+\newcommand{\areadeconcentracaograduacao}{\def \@areadeconcentracaograduacao}
+\newcommand{\imprimirareadeconcentracaograduacao}{\@areadeconcentracaograduacao}
+
+\newcommand{\habilitacao}{\def \@habilitacao}
 \newcommand{\imprimirhabilitacao}{\@habilitacao}
-\newcommand{\imprimirmembrodabancadois}{\@membrodabancadois}
-\newcommand{\imprimirmembrodabancatres}{\@membrodabancatres}
-\newcommand{\imprimirmembrodabancaquatro}{\@membrodabancaquatro}
-\newcommand{\imprimirmembrodabancacinco}{\@membrodabancacinco}
-\newcommand{\imprimirmembrodabancaseis}{\@membrodabancaseis}
-\newcommand{\imprimirmembrodabancaumies}{\@membrodabancaumies}
-\newcommand{\imprimirmembrodabancadoisies}{\@membrodabancadoisies}
-\newcommand{\imprimirmembrodabancatresies}{\@membrodabancatresies}
-\newcommand{\imprimirmembrodabancaquatroies}{\@membrodabancaquatroies}
-\newcommand{\imprimirmembrodabancacincoies}{\@membrodabancacincoies}
-\newcommand{\imprimirmembrodabancaseisies}{\@membrodabancaseisies}
-\newcommand{\imprimirmembrodabancadoiscentro}{\@membrodabancadoiscentro}
-\newcommand{\imprimirmembrodabancatrescentro}{\@membrodabancatrescentro}
-\newcommand{\imprimirmembrodabancaquatrocentro}{\@membrodabancaquatrocentro}
-\newcommand{\imprimirmembrodabancacincocentro}{\@membrodabancacincocentro}
-\newcommand{\imprimirmembrodabancaseiscentro}{\@membrodabancaseiscentro}
+
+\newcommand{\orientadories}{\def \@orientadories}
 \newcommand{\imprimirorientadories}{\@orientadories}
+
+\newcommand{\orientadoriessigla}{\def \@orientadoriessigla}
+\newcommand{\imprimirorientadoriessigla}{\@orientadoriessigla}
+
+\newcommand{\orientadorcentro}{\def \@orientadorcentro}
 \newcommand{\imprimirorientadorcentro}{\@orientadorcentro}
+
+\newcommand{\coorientadories}{\def \@coorientadories}
 \newcommand{\imprimircoorientadories}{\@coorientadories}
+
+\newcommand{\coorientadoriessigla}{\def \@coorientadoriessigla}
+\newcommand{\imprimircoorientadoriessigla}{\@coorientadoriessigla}
+
+\newcommand{\coorientadorcentro}{\def \@coorientadorcentro}
 \newcommand{\imprimircoorientadorcentro}{\@coorientadorcentro}
 
-% Valor de Padrão
+\newcommand{\membrodabancadois}{\def \@membrodabancadois}
+\newcommand{\imprimirmembrodabancadois}{\@membrodabancadois}
+
+\newcommand{\membrodabancadoisies}{\def \@membrodabancadoisies}
+\newcommand{\imprimirmembrodabancadoisies}{\@membrodabancadoisies}
+
+\newcommand{\membrodabancadoisiessigla}{\def \@membrodabancadoisiessigla}
+\newcommand{\imprimirmembrodabancadoisiessigla}{\@membrodabancadoisiessigla}
+
+\newcommand{\membrodabancadoiscentro}{\def \@membrodabancadoiscentro}
+\newcommand{\imprimirmembrodabancadoiscentro}{\@membrodabancadoiscentro}
+
+\newcommand{\membrodabancatres}{\def \@membrodabancatres}
+\newcommand{\imprimirmembrodabancatres}{\@membrodabancatres}
+
+\newcommand{\membrodabancatresies}{\def \@membrodabancatresies}
+\newcommand{\imprimirmembrodabancatresies}{\@membrodabancatresies}
+
+\newcommand{\membrodabancatresiessigla}{\def \@membrodabancatresiessigla}
+\newcommand{\imprimirmembrodabancatresiessigla}{\@membrodabancatresiessigla}
+
+\newcommand{\membrodabancatrescentro}{\def \@membrodabancatrescentro}
+\newcommand{\imprimirmembrodabancatrescentro}{\@membrodabancatrescentro}
+
+\newcommand{\membrodabancaquatro}{\def \@membrodabancaquatro}
+\newcommand{\imprimirmembrodabancaquatro}{\@membrodabancaquatro}
+
+\newcommand{\membrodabancaquatroies}{\def \@membrodabancaquatroies}
+\newcommand{\imprimirmembrodabancaquatroies}{\@membrodabancaquatroies}
+
+\newcommand{\membrodabancaquatroiessigla}{\def \@membrodabancaquatroiessigla}
+\newcommand{\imprimirmembrodabancaquatroiessigla}{\@membrodabancaquatroiessigla}
+
+\newcommand{\membrodabancaquatrocentro}{\def \@membrodabancaquatrocentro}
+\newcommand{\imprimirmembrodabancaquatrocentro}{\@membrodabancaquatrocentro}
+
+\newcommand{\membrodabancacinco}{\def \@membrodabancacinco}
+\newcommand{\imprimirmembrodabancacinco}{\@membrodabancacinco}
+
+\newcommand{\membrodabancacincoies}{\def \@membrodabancacincoies}
+\newcommand{\imprimirmembrodabancacincoies}{\@membrodabancacincoies}
+
+\newcommand{\membrodabancacincoiessigla}{\def \@membrodabancacincoiessigla}
+\newcommand{\imprimirmembrodabancacincoiessigla}{\@membrodabancacincoiessigla}
+
+\newcommand{\membrodabancacincocentro}{\def \@membrodabancacincocentro}
+\newcommand{\imprimirmembrodabancacincocentro}{\@membrodabancacincocentro}
+
+\newcommand{\membrodabancaseis}{\def \@membrodabancaseis}
+\newcommand{\imprimirmembrodabancaseis}{\@membrodabancaseis}
+
+\newcommand{\membrodabancaseisies}{\def \@membrodabancaseisies}
+\newcommand{\imprimirmembrodabancaseisies}{\@membrodabancaseisies}
+
+\newcommand{\membrodabancaseisiessigla}{\def \@membrodabancaseisiessigla}
+\newcommand{\imprimirmembrodabancaseisiessigla}{\@membrodabancaseisiessigla}
+
+\newcommand{\membrodabancaseiscentro}{\def \@membrodabancaseiscentro}
+\newcommand{\imprimirmembrodabancaseiscentro}{\@membrodabancaseiscentro}
+
+\newcommand{\dataaprovacao}{\def \@dataaprovacao}
+\newcommand{\imprimirdataaprovacao}{\@dataaprovacao}
+
+\newcommand{\epigrafee}{\def \@epigrafee}
+\newcommand{\imprimirepigrafee}{\@epigrafee}
+
+\newcommand{\autordaepigrafe}{\def \@autordaepigrafe}
+\newcommand{\imprimirautordaepigrafe}{\@autordaepigrafe}
+
+% Valor Padrão das Variáveis
+
+\autor{}
+\titulo{}
+\local{Crateús}
+\data{}
 
 \ies{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
 \iessigla{IFCE}
-\centro{Campus Crateús}
-\graduacaoem{}
-\habilitacao{} % Pode colocar tambem 'licenciada'
-\especializacaoem{}
-\programamestrado{}
-\nomedomestrado{}
-\mestreem{}
-\areadeconcentracaomestrado{}
+\centro{\textit{Campus} Crateús}
+
 \programadoutorado{}
 \nomedodoutorado{}
 \doutorem{}
 \areadeconcentracaodoutorado{}
-\autor{}
-\titulo{}
-\data{}
-\local{}
-\dataaprovacao{}
+
+\programamestrado{}
+\nomedomestrado{}
+\mestreem{}
+\areadeconcentracaomestrado{}
+
+\especializacaoem{}
+\habilitacaoesp{}
+
+\graduacaoem{}
+\habilitacao{} % Pode colocar tambem 'licenciada'
+
 \orientador{}
 \orientadories{}
 \orientadorcentro{}
 \orientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
+
 \coorientador{}
 \coorientadories{}
 \coorientadorcentro{}
 \coorientadorfeminino{nao}
-\membrodabancadois{}
-\membrodabancadoiscentro{}
-\membrodabancadoisies{}
-\membrodabancatres{}
-\membrodabancatrescentro{}
-\membrodabancatresies{}
-\membrodabancaquatro{}
-\membrodabancaquatrocentro{}
-\membrodabancaquatroies{}
-\membrodabancacinco{}
-\membrodabancacincocentro{}
-\membrodabancacincoies{}
-\membrodabancaseis{}
-\membrodabancaseiscentro{}
-\membrodabancaseisies{}
 
-% Definições de Variáveis
+\membrodabancadois{}
+\membrodabancadoisies{}
+\membrodabancadoiscentro{}
+
+
+\membrodabancatres{}
+\membrodabancatresies{}
+\membrodabancatrescentro{}
+
+\membrodabancaquatro{}
+\membrodabancaquatroies{}
+\membrodabancaquatrocentro{}
+
+
+\membrodabancacinco{}
+\membrodabancacincoies{}
+\membrodabancacincocentro{}
+
+\membrodabancaseis{}
+\membrodabancaseisies{}
+\membrodabancaseiscentro{}
+
+\dataaprovacao{}
+
+% Definições do Preâmbulo da Folha de Rosto
 
 \newcommand{\preambulotese}{
-	Tese apresentada ao Curso de \imprimirdoutorado\ do \imprimirprogramadoutorado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de doutor em \imprimirdoutorem. Área de Concentração: \imprimirareadeconcentracaodoutorado. \\
+Tese apresentada ao curso de \imprimirdoutorado\ do \imprimirprogramadoutorado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de doutor em \imprimirdoutorem. Área de Concentração: \imprimirareadeconcentracaodoutorado. \\
 }
 
 \newcommand{\preambulodissertacao}{
-	Dissertação apresentada ao Curso de \imprimirmestrado\ do \imprimirprogramamestrado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de mestre em \imprimirmestreem. Área de Concentração: \imprimirareadeconcentracaomestrado. \\
-}
-
-\newcommand{\preambulotccgraduacao}{
-	Trabalho de Conclusão de Curso apresentado ao Curso de Graduação em \imprimirgraduacaoem\ do \imprimircentro\ do \imprimiries, como requisito parcial à obtenção do grau de \imprimirhabilitacao\ em \imprimirgraduacaoem. \\
+Dissertação apresentada ao curso de \imprimirmestrado\ do \imprimirprogramamestrado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de mestre em \imprimirmestreem. Área de Concentração: \imprimirareadeconcentracaomestrado. \\
 }
 
 \newcommand{\preambulotccespecializacao}{
-	Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em \imprimirespecializacaoem\ do \imprimircentro\ do \imprimiries, como requisito parcial à obtenção da certificação de especialista em \imprimirespecializacaoem.
+Trabalho de Conclusão de Curso apresentado ao curso de Especialização em \imprimirespecializacaoem\ do \imprimiries\ (\imprimiriessigla) - \imprimircentro\, como requisito parcial para obtenção do Título de \imprimirhabilitacaoesp\ em \imprimirespecializacaoem. Área de concentração: \imprimirareadeconcentracaoespecializacao. \\
+}
+
+\newcommand{\preambulotccgraduacao}{
+Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do \imprimiries\ (\imprimiriessigla) - \imprimircentro\, como requisito parcial para obtenção do Título de \imprimirhabilitacao\ em \imprimirareadeconcentracaograduacao. \\
 }
 
 \preambulo{
@@ -517,7 +599,7 @@
 	} %	
 }
 
-% Capa
+% Capa (Tese)
 
 \newcommand{\imprimircapatese}{%
 	\begin{capa}%
@@ -529,7 +611,7 @@
         \includegraphics[scale=0.5]{figuras/logo-ifce} \\
         \vspace{0.1cm}
 		\MakeUppercase{\imprimiries} \\
-		\MakeUppercase{\imprimircentro} \\
+		\MakeUppercase{\imprimiriessigla} \MakeUppercase{\imprimircentro} \\
 		\abntex@ifnotempty{\imprimirprogramadoutorado}{
 			\MakeUppercase{\imprimirprogramadoutorado} \\
 		}		
@@ -551,6 +633,8 @@
 	\end{capa}
 }
 
+% Capa (Dissertação)
+
 \newcommand{\imprimircapadissertacao}{%
 	\begin{capa}%
 		% Todos os elementos da capa devem esta centralizado
@@ -561,7 +645,7 @@
         \includegraphics[scale=0.5]{figuras/logo-ifce} \\
         \vspace{0.1cm}
 		\MakeUppercase{\imprimiries} \\
-		\MakeUppercase{\imprimircentro} \\
+		\MakeUppercase{\imprimiriessigla} \MakeUppercase{\imprimircentro} \\
 		\abntex@ifnotempty{\imprimirprogramamestrado}{
 			\MakeUppercase{\imprimirprogramamestrado} \\
 		}		
@@ -583,6 +667,8 @@
 	\end{capa}	
 }
 
+% Capa (TCC)
+
 \newcommand{\imprimircapatcc}[2]{%
 	\begin{capa}%
 		% Todos os elementos da capa devem esta centralizado
@@ -591,24 +677,23 @@
 		\bfseries
 
         \includegraphics[scale=0.5]{figuras/logo-ifce} \\
-        \vspace{0.1cm}
 		\MakeUppercase{\imprimiries} \\
-		\MakeUppercase{\imprimircentro} \\
-		\MakeUppercase{Curso de #1 em #2} \\
+		\MakeUppercase{\imprimiriessigla} \MakeUppercase{\imprimircentro} \\
+		\MakeUppercase{\imprimirgraduacaoem} \\
 
-		\vspace{\onelineskip}
+		%\vspace{\onelineskip}
 		
-		\vspace{2cm}
+		\vspace{3cm}
 
 		\MakeUppercase{\imprimirautor}
 		
-		\vspace{5cm}
+		\vspace{3cm}
 		
 		\MakeUppercase{\imprimirtitulo}
 		
 		\vfill
 		\normalsize\MakeUppercase\imprimirlocal\par	
-		\normalsize\imprimirdata
+		\normalsize\MakeUppercase\imprimirdata
 	\end{capa}	
 }
 
@@ -635,7 +720,8 @@
 \makeatletter
 \renewcommand{\folhaderostocontent}{
 % Todos os elementos da capa devem estar em negrito
-		\bfseries
+% Na versão 2, os elementos da capa não devem estar em negrito
+		%\bfseries
 	\begin{center}
 		\normalsize\MakeUppercase\imprimirautor\par
 		\vspace{6.5cm}\par
@@ -662,15 +748,15 @@
 	
 	\vfill
 	\centering
-	\normalsize\MakeUppercase\imprimirlocal \par
-	\normalsize\imprimirdata	
+	\normalsize\MakeUppercase\imprimirlocal\par
+	\normalsize\MakeUppercase\imprimirdata	
 }
 \makeatother
 
-% Folha de Aprovação
+% Parâmetros da Folha de Aprovação
 
 % Define o comprimento da linha das assinaturas na Folha de Aprovacao
-\setlength{\ABNTEXsignwidth}{12cm}
+\setlength{\ABNTEXsignwidth}{15cm}
 
 % Largura da linha da assinatura
 \setlength{\ABNTEXsignthickness}{1pt}
@@ -678,11 +764,13 @@
 % Espaço entre uma assintura e outra
 \setlength{\ABNTEXsignskip}{\onelineskip}
 
+% Foha de Aprovação (Tese)
+
 \newcommand{\imprimirfolhadeaprovacaotese}{
 	% Define o comprimento da linha das assinaturas na Folha de Aprovacao
-	\setlength{\ABNTEXsignwidth}{8cm}
+	\setlength{\ABNTEXsignwidth}{11cm}
 	
-	% Espaço entre uma assintura e outra
+	% Espaço entre uma assinatura e outra
 	\setlength{\ABNTEXsignskip}{18pt}
 
 	\begin{center}
@@ -709,7 +797,7 @@
 
 	\vspace{\onelineskip}
 		
-	\noindent \textbf{Aprovada em: \imprimirdataaprovacao}
+	\noindent \textbf{Aprovado (a) em: \imprimirdataaprovacao}
 	
 	\vspace{\onelineskip}
 	
@@ -782,6 +870,8 @@
 	\pagebreak	
 }
 
+% Foha de Aprovação (Dissertação)
+
 \newcommand{\imprimirfolhadeaprovacaodissertacao}{
 
 	\begin{center}
@@ -808,7 +898,7 @@
 
 	\vspace{\onelineskip}
 		
-	\noindent \textbf{Aprovada em: \imprimirdataaprovacao}
+	\noindent \textbf{Aprovado (a) em: \imprimirdataaprovacao}
 	
 	\vspace{\onelineskip}
 	
@@ -844,10 +934,12 @@
 	\pagebreak
 }
 
+% Foha de Aprovação (TCC)
+
 \newcommand{\imprimirfolhadeaprovacaotcc}{
 
 	\begin{center}
-		\bfseries
+		%\bfseries
 		\MakeUppercase{\imprimirautor}\par
 		\vspace{\onelineskip}
 		\vspace{\onelineskip}
@@ -862,7 +954,7 @@
 	%Adiciona o espaço da margem
 	\hspace*{8cm}	
 	\begin{minipage}{8cm}
-	\bfseries
+	%\bfseries
 		\begin{SingleSpace}
 			\imprimirpreambulo \\			
 		\end{SingleSpace}		
@@ -870,38 +962,40 @@
 
 	\vspace{\onelineskip}
 		
-	\noindent \textbf{Aprovada em: \imprimirdataaprovacao}
+	\noindent Aprovado (a) em: \imprimirdataaprovacao
+	%\textbf{Aprovada em: \imprimirdataaprovacao}
 	
 	\vspace{\onelineskip}
 	
 	\begin{center}
-	\bfseries
+	%\bfseries
 		BANCA EXAMINADORA
 	\end{center}
 		\vspace{\onelineskip}
 
 	% Membro Um da banca é sempre o Orientador
-\textbf{
-	\assinatura{\imprimirorientador\ \artigoorientadorcomparenteses \\ \imprimirorientadorcentro \\ \imprimirorientadories}
-}	
-	% Membro Dois da banca pode ser o coorientador ou outro membro
-\textbf{
-	\ifnotempty{\imprimircoorientador}{
-		\assinatura{\imprimircoorientador\ \artigocoorientadorcomparenteses \\ \imprimircoorientadorcentro\\ \imprimircoorientadories}
-	}
-}	
+%\textbf{
+\assinatura{\imprimirorientador\ \artigoorientadorcomparenteses \\
+\imprimirorientadories\ (\imprimirorientadoriessigla) - \imprimirorientadorcentro}
+%}	
+	% 
+%\textbf{
+	%\ifnotempty{\imprimircoorientador}{
+		%\assinatura{\imprimircoorientador\ \artigocoorientadorcomparenteses \\ \imprimircoorientadorcentro\\ \imprimircoorientadories}
+	%}
+%}	
 	% Membro Três da banca pode ser o coorientador ou outro membro
-\textbf{
-	\ifnotempty{\imprimirmembrodabancadois}{
-		\assinatura{\imprimirmembrodabancadois \\ \imprimirmembrodabancadoiscentro \\ \imprimirmembrodabancadoisies}
-	}
-}		
+%\textbf{
+	%\ifnotempty{\imprimirmembrodabancadois}{
+		\assinatura{\imprimirmembrodabancadois \\ \imprimirmembrodabancadoisies\ (\imprimirmembrodabancadoisiessigla) - \imprimirmembrodabancadoiscentro}
+	%}
+%}		
 	% Membro Três da banca pode ser o coorientador ou outro membro
-\textbf{
-	\ifnotempty{\imprimirmembrodabancatres}{
-		\assinatura{\imprimirmembrodabancatres \\ \imprimirmembrodabancatrescentro \\ \imprimirmembrodabancatresies}
-	}
-}	
+%\textbf{
+	%\ifnotempty{\imprimirmembrodabancatres}{
+\assinatura{\imprimirmembrodabancatres \\ \imprimirmembrodabancatresies\ (\imprimirmembrodabancatresiessigla) - \imprimirmembrodabancatrescentro}
+	%}
+%}	
 	% Membro Quatro da banca pode ser o coorientador ou outro membro
 %\textbf{
 %	\ifnotempty{\imprimirmembrodabancaquatro}{
@@ -977,7 +1071,7 @@
 	\ifthenelse{\boolean{ifcetex2@ehqualificacao}}{}{
 		\begin{agradecimentos}
 			\begin{paracol}{1}
-				\setlength{\parindent}{0pt}%
+				\setlength{\parindent}{1.25cm}%
 				\input{#1}
 			\end{paracol}		
 		\end{agradecimentos}
@@ -996,7 +1090,7 @@
 		\hspace*{8cm}	
 		\begin{minipage}{8cm}
 			\input{#1}
-			\raggedleft{(\imprimirautordaepigrafe) \par}
+			\raggedright{(\imprimirautordaepigrafe) \par}
 		\end{minipage}		
 		\pagebreak
 	}
@@ -1085,15 +1179,15 @@
 	\pagebreak %
 }
 
-% Lista de Abreviaturas e Siglas
+% Lista de Siglas
 
-% Largura da lista de abreviaturas
+% Largura da lista de Siglas
 \setlength{\glsdescwidth}{\linewidth}
 
-\newcommand{\imprimirlistadeabreviaturasesiglas}{
-	\printglossary[type=\acronymtype,style=long,nonumberlist,title={Lista de Abreviaturas e Siglas\vspace{-0.3cm}}] %
-	
-	%\pagebreak %
+\newcommand{\imprimirlistadesiglas}{
+\printglossary[type=\acronymtype,style=long,nonumberlist,title={Lista de Siglas}] %
+%\vspace{-0.3cm}
+%\pagebreak %
 }
 
 % Lista de Simbolos
@@ -1241,7 +1335,7 @@
 \renewcommand\cftsubsubsectionfont{\normalsize\normalfont\itshape}
 
 % Altera a fonte quinária
-\renewcommand{\cftparagraphfont}{\normalsize\normalfont\itshape}
+\renewcommand{\cftparagraphfont}{\normalsize\normalfont}
 
 % Secao Secundaria (Section): Caixa alta, Não Negrito, tamanho 12
 

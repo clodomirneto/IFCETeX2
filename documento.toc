@@ -1,0 +1,32 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{15}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {T\IeC {\'\i }tulo da Se\IeC {\c c}\IeC {\~a}o Prim\IeC {\'a}ria do Desenvolvimento}}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}T\IeC {\'\i }tulo da Se\IeC {\c c}\IeC {\~a}o Secund\IeC {\'a}ria}{16}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o terci\IeC {\'a}ria}{17}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o quatern\IeC {\'a}ria}{17}{subsubsection.2.1.1.1}
+\contentsline {paragraph}{\numberline {2.1.1.1.1}T\IeC {\'\i }tulo da se\IeC {\c c}\IeC {\~a}o quin\IeC {\'a}ria}{18}{paragraph.2.1.1.1.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Conclus\IeC {\~a}o}}{21}{chapter.3}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {REFER\^ENCIAS}}{22}{section*.14}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {\textsc {Rela\IeC {\c c}\IeC {\~a}o de Normas T\IeC {\'e}cnicas vigentes utilizadas na Normaliza\IeC {\c c}\IeC {\~a}o de Trabalhos Cient\IeC {\'\i }ficos}}}}{23}{appendix.A}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {\bfseries {\textsc {Resolu\IeC {\c c}\IeC {\~a}o que aprova a cria\IeC {\c c}\IeC {\~a}o do Curso Superior de Tecnologia em Gest\IeC {\~a}o Ambiental no IFCE \textit {Campus} Paracuru}}}}{24}{appendix.anexochapback.1}

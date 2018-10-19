@@ -1,72 +1,83 @@
-@article{lamport1986latex,
-    title={LaTEX: User's Guide \& Reference Manual},
-    author={Lamport, Leslie},
-    year={1986},
-    publisher={Addison-Wesley}
+% Encoding: UTF-8
+
+@Book{andrade,
+  title     = {Introdução à metodologia do trabalho científico},
+  publisher = {Atlas},
+  year      = {2010},
+  author    = {Maria Margarida de Andrade},
+  address   = {São Paulo},
+  edition   = {10},
+  subtitle  = {elaboração de trabalhos na graduação},
 }
 
-@article{quatroautores,
-	title={Real-time prediction of hand trajectory 
-	by ensembles of cortical neurons in primates},
-	author={Wessberg, Johan and Stambaugh, Christopher R and 
-	Kralik,Jerald D and 
-	Beck, Pamela D and Laubach, Mark and 
-	Chapin, John K and Kim, Jung and Biggs, S James and 
-	Srinivasan, Mandayam A and Nicolelis, Miguel AL},
-	journal={Nature},
-	volume={408},
-	number={6810},
-	pages={361--365},
-	year={2000},
-	publisher={Nature Publishing Group}
+@Book{barros,
+  title     = {Fundamentos de metodologia científica},
+  publisher = {Pearson Prentice Hall},
+  year      = {2007},
+  author    = {BARROS, A. J. S.; LEHFELD, N. A. S.},
+  address   = {São Paulo},
+  edition   = {3},
 }
 
-@book{knuth,
-	title={The texbook},
-	author={Knuth, D.E. and Bibby, D. and Makai, I.},
-	volume={1993},
-	year={1986},
-	publisher={Addison-Wesley}
+@Book{cervo,
+  title     = {Metodologia científica},
+  publisher = {Pearson Prentice Hall},
+  year      = {2007},
+  author    = {CERVO, A. L.; BERVIAN, P. A.; SILVA, R.},
+  address   = {São Paulo},
+  edition   = {6},
 }
 
-@misc{lamport,
-	title={Document Preparation System},
-	author={Lamport, L. and LaTEX, A.},
-	year={1994},
-	publisher={Addison-Wesley}
+@Book{koche,
+  title     = {Fundamentos de metodologia científica},
+  publisher = {Vozes},
+  year      = {2015},
+  author    = {KÖCHE, J. C.},
+  address   = {Petrópolis},
+  edition   = {34},
+  subtitle  = {teoria da ciência e iniciação à pesquisa},
 }
 
-@MASTERSTHESIS{Maia2011,
-	author = { BORGES, J. A. M.},
-	TITLE = {Estudo da drogadição gestacional e óbito neonatal},
-	SCHOOL = {Universidade Estadual do Ceará, Fortaleza},
-	YEAR = {2012},
-	type = {Mestrado},
+@Book{marconi,
+  title     = {Fundamentos de metodologia científica},
+  publisher = {Atlas},
+  year      = {2012},
+  author    = {MARCONI, M. A.; LAKATOS, E. M.},
+  address   = {São Paulo},
+  edition   = {7},
 }
 
-@article{mortalidade,
-	title={Mortalidade neonatal: fatores de risco em um município no sul do Brasil},
-	author={MARAM, E. and UCHIMURA, T. T.},
-	journal={Rev. Eletr. Enf.},
-	volume={10},
-	number={1},
-	pages={29-38},
-	year={2008},
+@Book{medeiros,
+  title     = {Redação científica},
+  publisher = {Atlas},
+  year      = {2011},
+  author    = {MEDEIROS, J. B.},
+  address   = {São Paulo},
+  edition   = {11},
+  subtitle  = {a prática de fichamentos, resumos, resenhas},
 }
 
-@inproceedings{Huetal2000,
-	author = "J. Hu and H.R. Wu and A. Jennings and X. Wang",
-	title = "Fast and robust equalization: A case study",
-	booktitle = "Proceedings of the World Multiconference on Systemics, Cybernetics and Informatics, (SCI 2000), Florida, USA, 23-26 July 2000",
-	publisher = "International Institute of Informatics and Systemics", 
-	address = "FL, USA",
-	pages = "398--403",
-	year = "2000"
+@Article{cunha,
+  author  = {CUNHA, L. G. C.},
+  title   = {Normalização de originais},
+  journal = {Ciência da Informação},
+  year    = {1973},
+  volume  = {2},
+  number  = {1},
+  pages   = {59-63},
+  address = {Rio de Janeiro},
 }
 
-@book{tresautores,
-	title={Resiliência: enfatizando a proteção dos 	adolescentes},
-	author={ASSIS, S. G and  AVANCI, J. Q. and PESCE, R. P.},
-	year={2005},
-	address={Porto Alegre: Artmed},
+@Article{witter,
+  author  = {WITTER, G. P},
+  title   = {O ambiente acadêmico como fonte de produção científica},
+  journal = {Informação e Informação},
+  year    = {1996},
+  volume  = {1},
+  number  = {1},
+  pages   = {22-26},
+  month   = {jan-jul},
+  adrress = {Londrina},
 }
+
+@Comment{jabref-meta: databaseType:bibtex;}

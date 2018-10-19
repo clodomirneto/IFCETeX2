@@ -1,53 +1,63 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Customizações do abnTeX2 para o Campus Crateús do IFCE    			%%%
-%%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   	%%%
-%%%																		%%%
-%%% Conditions of the LaTeX Project Public License, either version 1.3 	%%%
+%%% Customizações do abnTeX2 para o Campus Crateús do IFCE    				%%%
+%%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   		%%%
+%%%																							%%%
+%%% Conditions of the LaTeX Project Public License, either version 1.3	%%%
 %%% of this license or (at your option) any later version.              %%%
-%%%																		%%%
+%%%																							%%%
 %%% The latest version of this license is in                            %%%
-%%% http://www.latex-project.org/lppl.txt                     			%%%
+%%% http://www.latex-project.org/lppl.txt                     				%%%
 %%% and version 1.3 or later is part of all distributions of LaTeX      %%%
 %%% version 2005/12/01 or later.                                        %%%
 %%%                                                                     %%%
 %%% This work has the LPPL maintenance status 'maintained'.             %%%
 %%%                                                                     %%%
-%%% The Current Maintainer of this work is Clodomir Silva Lima Neto     %%%
-%%%                                                                     %%%
-%%% Project available on: https://github.com/clodomirneto/IFCETeX2      %%%
-%%%                                                                     %%%
 %%% Further information about abnTeX2 are available on                  %%%
-%%%  http://abntex2.googlecode.com/                      				%%%
-%%%                                                                     %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  http://abntex2.googlecode.com/                      					%%%
+%%%																							%%%
+%%% The Current Maintainer of this work is Clodomir Silva Lima Neto     %%%
+%%% Email para contato: clodomir.neto@ifce.edu.br								 %%%
+%%%                                                                      %%%
+%%% Project available on: https://github.com/clodomirneto/IFCETeX2       %%%
+%%%                                                                      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% 			Sequência de Compilação do Documento					%%%
-%%%																		%%%
+%%%																				%%%
 %%%	pdflatex documento.tex												%%%
-%%%	bibtex documento.aux												%%%
-%%%	makeglossaries documento.glo										%%%
+%%%	bibtex documento.aux													%%%
+%%%	makeglossaries documento.glo											%%%
 %%%	makeindex documento.idx												%%%
 %%%	pdflatex documento.tex												%%%
 %%%	pdflatex documento.tex												%%%
-%%%																		%%%
-%%% 																	%%%
-%%% Texmaker - Opções - Configurar o Texmaker - Compilar - Usuário		%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|bibtex %.aux|makeglossaries %.glo|makeindex %.aux|pdflatex -synctex=1 -interaction=nonstopmode %.tex|pdflatex -synctex=1 -interaction=nonstopmode %.tex|evince %.pdf								%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%	documento.pdf 															%%%
+%%% 																			%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|			%%%
+%%% bibtex %.aux|															%%%
+%%% makeglossaries %.glo|												%%%
+%%% makeindex %.aux|														%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex| 			%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|			%%%
+%%% evince %.pdf															%%%
+%%%																				%%%
+%%% make -f Makefile														%%%
+%%%																				%%%
+%%% git status + git add . + git commit + git push				%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%          	Configurações do IFCETeX2	           					%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%          	Configurações do IFCETeX2	           			 %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{preambulo}
 
 % Opções disponíveis
 
-\trabalhoacademico{tccgraduacao}
-%\trabalhoacademico{tccespecializacao}
-%\trabalhoacademico{dissertacao}
 %\trabalhoacademico{tese}
+%\trabalhoacademico{dissertacao}
+%\trabalhoacademico{tccespecializacao}
+\trabalhoacademico{tccgraduacao}
 
 % Define se o trabalho é uma qualificação, coloque 'nao' para versão final do trabalho
 
@@ -61,27 +71,18 @@
 
 \cordohyperlink{nao}
 
+% Informação relacionadas ao trabalho
+
+\autor{Nome Completo do Autor}
+\titulo{Título do Trabalho: Subtítulo (se houver)}
+\local{Cidade - UF}
+\data{Ano de Entrega}
+
 % Informação sobre a IES
 
 \ies{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
 \iessigla{IFCE}
-\centro{Campus Crateús}
-
-% Informação para TCC de Graduação
-
-\graduacaoem{Licenciatura em Matemática}
-\habilitacao{licenciado} % Pode colocar tambem 'licenciada'
-
-%Informação para TCC de Especializacao
-
-\especializacaoem{Alfabetização de Crianças}
-
-% Informação para Dissertacao
-
-\programamestrado{Programa de Pós-Graduação em Ciência da Computação}
-\nomedomestrado{Mestrado Acadêmico em Ciência da Computação}
-\mestreem{Ciência da Computação}
-\areadeconcentracaomestrado{Ciência da Computação}
+\centro{\textit{Campus} Crateús}
 
 % Informação para Tese
 
@@ -90,39 +91,71 @@
 \doutorem{Saúde Coletiva}
 \areadeconcentracaodoutorado{Saúde Coletiva}
 
-% Informação relacionadas ao trabalho
+% Informação para Dissertacao
 
-\autor{Francisco Elenilton Oliveira Paiva}
-\titulo{A Irracionalidade e Transcendência do Número de Euler}
-\data{2017}
-\local{Crateús}
+\programamestrado{Programa de Pós-Graduação em Ciência da Computação}
+\nomedomestrado{Mestrado Acadêmico em Ciência da Computação}
+\mestreem{Ciência da Computação}
+\areadeconcentracaomestrado{Ciência da Computação}
+
+% Informação para TCC de Especialização
+
+\especializacaoem{Ensino de Ciências da Natureza e Matemática}
+\habilitacaoesp{Especialista}
+\areadeconcentracaoespecializacao{Ensino de Matemática}
+
+% Informação para TCC de Graduação
+
+\graduacaoem{Licenciatura em Matemática}
+\habilitacao{Licenciado} % Pode colocar tambem 'Licenciada'
+\areadeconcentracaograduacao{Matemática}
 
 % Data de Aprovação
 
 \dataaprovacao{\underline{\hspace*{1cm}}/\underline{\hspace*{1cm}}/\underline{\hspace*{1.2cm}}.}
 
+% Abreviaturas dos títulos acadêmicos
+
+% Especialista: Esp.
+% Mestre: Me.
+% Mestra: Ma.
+% Doutor: Dr.
+% Doutora: Dra.
+
 % Informação sobre o Orientador
 
-\orientador{Elano Caio do Nascimento}
+\orientador{Prof. Dr. XXX}
 \orientadories{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
-\orientadorcentro{Campus Crateús}
+\orientadoriessigla{IFCE}
+\orientadorcentro{\textit{Campus} Crateús}
 \orientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
 
-% Informação sobre o Co-orientador
+% Informação sobre o Coorientador
 
-\coorientador{} % Deixe o nome do coorientador em branco para remover do documento
-\coorientadories{Universidade Co-orientador - SIGLA}
-\coorientadorcentro{Centro do Co-orientador - SIGLA}
-\coorientadorfeminino{nao} % Coloque 'sim' se for do sexo feminino
+\coorientador{Prof. Dra. XXX} % Deixe o nome do coorientador em branco para remover do documento
+\coorientadories{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
+\coorientadoriessigla{IFCE}
+\coorientadorcentro{\textit{Campus} Crateús}
+\coorientadorfeminino{sim} % Coloque 'sim' se for do sexo feminino
 
 % Informação sobre a banca
 
-\membrodabancadois{João Luiz Batista de Melo Júnior}
-\membrodabancadoiscentro{Campus Crateús}
+% Membro da Banca Dois
+
+\membrodabancadois{Prof. Dra. XXX}
 \membrodabancadoisies{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
-\membrodabancatres{Diego Alves da Costa}
-\membrodabancatrescentro{Campus Crateús}
+\membrodabancadoisiessigla{IFCE}
+\membrodabancadoiscentro{\textit{Campus} Crateús}
+
+% Membro da Banca Três
+
+\membrodabancatres{Prof. Dra. XXX}
 \membrodabancatresies{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
+\membrodabancatresiessigla{IFCE}
+\membrodabancatrescentro{\textit{Campus} Crateús}
+
+% Informação Complementar sobre a banca
+
 \membrodabancaquatro{Membro da Banca Quatro}
 \membrodabancaquatrocentro{Centro de Ciências e Tecnologia - CCT}
 \membrodabancaquatroies{Universidade do Membro da Banca Quatro - SIGLA}
@@ -152,7 +185,8 @@
 \imprimirlistadequadros
 %\imprimirlistadealgoritmos
 %\imprimirlistadecodigosfonte
-\imprimirlistadeabreviaturasesiglas
+%\imprimirlistadesiglas
+\imprimirlistadesiglas{elementos-pre-textuais/lista-de-siglas}
 \imprimirlistadesimbolos{elementos-pre-textuais/lista-de-simbolos}
 \imprimirsumario
 	
@@ -160,11 +194,11 @@
 
 \textual
 \input{elementos-textuais/introducao}
-\input{elementos-textuais/cap1}
-\input{elementos-textuais/cap2}
-\input{elementos-textuais/cap3}
+\input{elementos-textuais/fundamentacao-teorica}
+%\input{elementos-textuais/trabalhos-relacionados}
+%\input{elementos-textuais/metodologia}
 %\input{elementos-textuais/resultados}
-%\input{elementos-textuais/conclusao}
+\input{elementos-textuais/conclusao}
 	
 % Elementos pós-textuais
 

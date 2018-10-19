@@ -69,7 +69,7 @@
 %\usepackage{upgreek}                               % Fonte letras gregas
 \usepackage{appendix}                               % Gerar o apendice no final do documento
 \usepackage{paracol}                                % Criar paragrafos sem identacao
-\usepackage{ifcetex2}		                        % Biblioteca com as normas do IFCE para trabalhos academicos
+\usepackage{ifcetex2}		                        	  % Biblioteca com as normas do IFCE para trabalhos academicos
 \usepackage{pdfpages}                               % Incluir pdf no documento
 % Organiza e gera a lista de abreviaturas, simbolos e glossario
 \makeglossaries
@@ -89,5 +89,5 @@
 %PROVAS
 
 \newenvironment{prova}[1][Prova]{\noindent\textbf{#1.} }{\hfill\rule{0.5em}{0.5em}}
-\newenvironment{exm}{\noindent{\textbf{•} Exemplo: }}{$\diamond$}
+\newenvironment{exm}{\noindent{\textbf{Exemplo:}}}{$\diamond$}
 \newenvironment{dem}[1][Demonstra\c c\~ao]{\noindent\textbf{#1.} }{\hfill\rule{2mm}{2mm}}
