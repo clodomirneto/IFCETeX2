@@ -193,89 +193,43 @@ Scanning input file documento.aux...
 !! Input index error (file = documento.aux, line = 96):
    -- Unknown index keyword \BKM@entry.
 !! Input index error (file = documento.aux, line = 97):
-   -- Unknown index keyword \bibcite.
+   -- Unknown index keyword \@switch.
 !! Input index error (file = documento.aux, line = 98):
-   -- Unknown index keyword \bibciteEXPL.
+   -- Unknown index keyword \@writefile.
 !! Input index error (file = documento.aux, line = 99):
-   -- Unknown index keyword \bibciteIMPL.
+   -- Unknown index keyword \@writefile.
 !! Input index error (file = documento.aux, line = 100):
-   -- Unknown index keyword \bibciteYEAR.
+   -- Unknown index keyword \@writefile.
 !! Input index error (file = documento.aux, line = 101):
-   -- Unknown index keyword \bibcite.
+   -- Unknown index keyword \@writefile.
 !! Input index error (file = documento.aux, line = 102):
-   -- Unknown index keyword \bibciteEXPL.
+   -- Unknown index keyword \@writefile.
 !! Input index error (file = documento.aux, line = 103):
-   -- Unknown index keyword \bibciteIMPL.
+   -- Unknown index keyword \@writefile.
 !! Input index error (file = documento.aux, line = 104):
-   -- Unknown index keyword \bibciteYEAR.
-!! Input index error (file = documento.aux, line = 105):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = documento.aux, line = 106):
-   -- Unknown index keyword \bibciteEXPL.
-!! Input index error (file = documento.aux, line = 107):
-   -- Unknown index keyword \bibciteIMPL.
-!! Input index error (file = documento.aux, line = 108):
-   -- Unknown index keyword \bibciteYEAR.
-!! Input index error (file = documento.aux, line = 109):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = documento.aux, line = 110):
-   -- Unknown index keyword \bibciteEXPL.
-!! Input index error (file = documento.aux, line = 111):
-   -- Unknown index keyword \bibciteIMPL.
-!! Input index error (file = documento.aux, line = 112):
-   -- Unknown index keyword \bibciteYEAR.
-!! Input index error (file = documento.aux, line = 113):
-   -- Unknown index keyword \bibcite.
-!! Input index error (file = documento.aux, line = 114):
-   -- Unknown index keyword \bibciteEXPL.
-!! Input index error (file = documento.aux, line = 115):
-   -- Unknown index keyword \bibciteIMPL.
-!! Input index error (file = documento.aux, line = 116):
-   -- Unknown index keyword \bibciteYEAR.
-!! Input index error (file = documento.aux, line = 117):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 118):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 119):
-   -- Unknown index keyword \BKM@entry.
-!! Input index error (file = documento.aux, line = 120):
-   -- Unknown index keyword \@switch.
-!! Input index error (file = documento.aux, line = 121):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 122):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 123):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 124):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 125):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 126):
-   -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 127):
    -- Unknown index keyword \newlabel.
-!! Input index error (file = documento.aux, line = 128):
+!! Input index error (file = documento.aux, line = 105):
    -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 129):
+!! Input index error (file = documento.aux, line = 106):
    -- Unknown index keyword \@switch.
-!! Input index error (file = documento.aux, line = 130):
+!! Input index error (file = documento.aux, line = 107):
    -- Unknown index keyword \BKM@entry.
-!! Input index error (file = documento.aux, line = 131):
+!! Input index error (file = documento.aux, line = 108):
    -- Unknown index keyword \bibstyle.
-!! Input index error (file = documento.aux, line = 132):
+!! Input index error (file = documento.aux, line = 109):
    -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 133):
+!! Input index error (file = documento.aux, line = 110):
    -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 134):
+!! Input index error (file = documento.aux, line = 111):
    -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 135):
+!! Input index error (file = documento.aux, line = 112):
    -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 136):
+!! Input index error (file = documento.aux, line = 113):
    -- Unknown index keyword \@writefile.
-!! Input index error (file = documento.aux, line = 137):
+!! Input index error (file = documento.aux, line = 114):
    -- Unknown index keyword \memsetcounter.
-!! Input index error (file = documento.aux, line = 138):
+!! Input index error (file = documento.aux, line = 115):
    -- Unknown index keyword \memsetcounter.
-done (0 entries accepted, 138 rejected).
+done (0 entries accepted, 115 rejected).
 Nothing written in documento.ind.
 Transcript written in documento.ilg.

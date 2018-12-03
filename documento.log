@@ -1,10 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.14)  19 OCT 2018 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.2)  2 DEC 2018 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **documento.tex
 (./documento.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./preambulo.tex
 (/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
@@ -20,7 +21,7 @@ ment class
 \@memcnta=\count80
 \c@@memmarkcntra=\count81
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ifetex/ifetex.sty
 Package: ifetex 2018/03/31 v1.2a ifetex
@@ -343,7 +344,7 @@ LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -366,7 +367,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -403,7 +404,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count139
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -412,33 +413,33 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4535.
-Package hyperref Info: Link nesting OFF on input line 4540.
-Package hyperref Info: Hyper index ON on input line 4543.
-Package hyperref Info: Plain pages OFF on input line 4550.
-Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4788.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count141
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5141.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen148
 \Fld@menulength=\count142
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6396.
-Package hyperref Info: Link nesting OFF on input line 6401.
-Package hyperref Info: Hyper index ON on input line 6404.
-Package hyperref Info: backreferencing OFF on input line 6411.
-Package hyperref Info: Link coloring OFF on input line 6416.
-Package hyperref Info: Link coloring with OCG OFF on input line 6421.
-Package hyperref Info: PDF/A mode OFF on input line 6426.
-LaTeX Info: Redefining \ref on input line 6466.
-LaTeX Info: Redefining \pageref on input line 6470.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count143
 \c@Item=\count144
 \c@Hfootnote=\count145
@@ -452,7 +453,7 @@ ass
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count148
 \c@bookmark@seq@number=\count149
 
@@ -471,16 +472,16 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count150
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/10/03 3.25 The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/10/03 3.25 Babel switching mechanism
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/10/03 3.25 Babel common definitions
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count151
 \U@D=\dimen151
 
@@ -661,7 +662,7 @@ LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip260
 \multirow@cntb=\count178
 \multirow@dima=\skip261
@@ -685,15 +686,15 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 \lst@maxwidth=\dimen170
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count185
 \lst@skipnumbers=\count186
 \lst@framebox=\box33
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -799,11 +800,11 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count269
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count270
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2018/07/23 v4.41 (NLCT)
+Package: glossaries 2018/04/07 v4.37 (NLCT)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -825,14 +826,14 @@ Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2018/04/16 v2.30 (NLCT)
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count272
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2018/04/16 v2.30 (NLCT)
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
@@ -894,10 +895,10 @@ Package: fp-eval 1995/04/03
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
-Package: glossaries-compatible-307 2018/07/23 v4.41 (NLCT)
+Package: glossaries-compatible-307 2018/04/07 v4.37 (NLCT)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tracklang/tracklang.sty
-Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
+Package: tracklang 2018/02/21 v1.3.5 (NLCT) Track Languages
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/tracklang/tracklang.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
@@ -924,11 +925,11 @@ rtuges-utf8.ldf))
 \gls@tmplen=\skip285
 
 
-Package glossaries Warning: Overriding \printglossary on input line 5740.
+Package glossaries Warning: Overriding \printglossary on input line 5647.
 
 
 Package glossaries Warning: Overriding `theglossary' environment on input line 
-6330.
+6306.
 
 \glskeylisttok=\toks41
 \glslabeltok=\toks42
@@ -937,16 +938,16 @@ Package glossaries Warning: Overriding `theglossary' environment on input line
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
-Package: glossary-hypernav 2018/07/23 v4.41 (NLCT)
+Package: glossary-hypernav 2018/04/07 v4.37 (NLCT)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
-Package: glossary-list 2018/07/23 v4.41 (NLCT)
+Package: glossary-list 2018/04/07 v4.37 (NLCT)
 \glslistdottedwidth=\skip286
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
-Package: glossary-long 2018/07/23 v4.41 (NLCT)
+Package: glossary-long 2018/04/07 v4.37 (NLCT)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip287
@@ -970,7 +971,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
-Package: glossary-super 2018/07/23 v4.41 (NLCT)
+Package: glossary-super 2018/04/07 v4.37 (NLCT)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count297
@@ -992,7 +993,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
-Package: glossary-tree 2018/07/23 v4.41 (NLCT)
+Package: glossary-tree 2018/04/07 v4.37 (NLCT)
 \glstreeindent=\skip296
 ))
 
@@ -1003,11 +1004,11 @@ To prepare we will now reset all captioning macros and configurations to kernel
  configure your captions.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen190
 \captionmargin@=\dimen191
 \captionwidth=\dimen192
@@ -1016,14 +1017,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen256
 \caption@hangindent=\dimen257
 )
-\c@caption@flags=\count298
-\c@ContinuedFloat=\count299
+\c@ContinuedFloat=\count298
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 )
@@ -1033,8 +1033,8 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 (/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip297
 \ABCIauxlen=\skip298
-\c@ABCIaux=\count300
-\c@ABCImax=\count301
+\c@ABCIaux=\count299
+\c@ABCImax=\count300
 \biblabelsep=\skip299
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
@@ -1077,17 +1077,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Info: Redefining \hbar on input line 50.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/paracol/paracol.sty
-Package: paracol 2018/05/07 v1.34 
-\pcol@currcol=\count302
-\pcol@nextcol=\count303
-\pcol@ncol=\count304
-\pcol@ncolleft=\count305
-\pcol@page=\count306
-\pcol@basepage=\count307
-\pcol@toppage=\count308
-\pcol@footnotebase=\count309
-\pcol@nfootnotes=\count310
-\pcol@mcid=\count311
+Package: paracol 2015/10/10 v1.32 
+\pcol@currcol=\count301
+\pcol@nextcol=\count302
+\pcol@ncol=\count303
+\pcol@ncolleft=\count304
+\pcol@page=\count305
+\pcol@basepage=\count306
+\pcol@toppage=\count307
+\pcol@footnotebase=\count308
+\pcol@nfootnotes=\count309
+\pcol@mcid=\count310
 \pcol@prevdepth=\dimen258
 \pcol@colht=\dimen259
 \pcol@textfloatsep=\dimen260
@@ -1097,10 +1097,7 @@ Package: paracol 2018/05/07 v1.34
 \pcol@topfnotes=\box47
 \pcol@prespan=\box48
 \pcol@rightpage=\box49
-\pcol@colorstack@saved=\box50
-\pcol@tempboxa=\box51
-\pcol@tempboxb=\box52
-\pcol@colorins=\insert252
+\pcol@tempbox=\box50
 \pcol@everyvbox=\toks47
 )
 (./ifcetex2.sty (./elementos-pre-textuais/lista-de-siglas.tex)
@@ -1124,17 +1121,17 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\enitdp@alineascomponto=\count312
-\c@subalineascompontoi=\count313
-\enitdp@subalineascomponto=\count314
-\c@alineascomnumeroi=\count315
-\c@alineascomnumeroii=\count316
-\enitdp@alineascomnumero=\count317
-\c@subalineascomnumeroi=\count318
-\enitdp@subalineascomnumero=\count319
-\c@quest=\count320
-\c@quadro=\count321
-\c@loqdepth=\count322
+\enitdp@alineascomponto=\count311
+\c@subalineascompontoi=\count312
+\enitdp@subalineascomponto=\count313
+\c@alineascomnumeroi=\count314
+\c@alineascomnumeroii=\count315
+\enitdp@alineascomnumero=\count316
+\c@subalineascomnumeroi=\count317
+\enitdp@subalineascomnumero=\count318
+\c@quest=\count319
+\c@quadro=\count320
+\c@loqdepth=\count321
 \cftbeforequadroskip=\skip301
 \cftquadroindent=\skip302
 \cftquadronumwidth=\skip303
@@ -1150,7 +1147,7 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
 \AM@pagewidth=\dimen263
 \AM@pageheight=\dimen264
@@ -1158,11 +1155,11 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box53
+\AM@pagebox=\box51
 \AM@global@opts=\toks48
 \AM@toc@title=\toks49
-\c@AM@survey=\count323
-\AM@templatesizebox=\box54
+\c@AM@survey=\count322
+\AM@templatesizebox=\box52
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -1335,13 +1332,13 @@ Package glossaries Info: Writing glossary file documento.acn on input line 76.
 
 
 Writing index file documento.idx 
-\c@proposition=\count324
-\c@theorem=\count325
-\c@lemma=\count326
-\c@definition=\count327
-\c@exemplo=\count328
-\c@corollary=\count329
-\c@exercicio=\count330
+\c@proposition=\count323
+\c@theorem=\count324
+\c@lemma=\count325
+\c@definition=\count326
+\c@exemplo=\count327
+\c@corollary=\count328
+\c@exercicio=\count329
 ) (./documento.aux
 
 LaTeX Warning: Label `qua:exemplo-1' multiply defined.
@@ -1375,7 +1372,7 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 169.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box55
+\AtBeginShipoutBox=\box53
 Package hyperref Info: Link coloring OFF on input line 169.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1384,7 +1381,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count330
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1392,20 +1389,20 @@ LaTeX Info: Redefining \nameref on input line 169.
 LaTeX Info: Redefining \ref on input line 169.
 LaTeX Info: Redefining \pageref on input line 169.
 LaTeX Info: Redefining \nameref on input line 169.
-\myptabbox=\box56
+\myptabbox=\box54
 \myptabboxwidth=\skip312
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count332
+\scratchcounter=\count331
 \scratchdimen=\dimen265
-\scratchbox=\box57
-\nofMPsegments=\count333
-\nofMParguments=\count334
+\scratchbox=\box55
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count335
+\MPscratchCnt=\count334
 \MPscratchDim=\dimen266
-\MPnumerator=\count336
-\makeMPintoPDFobject=\count337
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1424,7 +1421,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count338
+\c@lstlisting=\count337
 LaTeX Info: Redefining \microtypecontext on input line 169.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1895,7 +1892,7 @@ Overfull \hbox (17.21405pt too wide) in paragraph at lines 32--32
 ] [16
 
 ]
-<figuras/ifce-estado.png, id=191, 770.12718pt x 513.41812pt>
+<figuras/ifce-estado.png, id=192, 770.12718pt x 513.41812pt>
 File: figuras/ifce-estado.png Graphic file (type png)
 <use figuras/ifce-estado.png>
 Package pdftex.def Info: figuras/ifce-estado.png  used on input line 71.
@@ -1944,7 +1941,7 @@ bibitemlist
 
 
 ]
-<figuras/brasao-brasil.png, id=238, 226.8475pt x 223.83624pt>
+<figuras/brasao-brasil.png, id=239, 226.8475pt x 223.83624pt>
 File: figuras/brasao-brasil.png Graphic file (type png)
 <use figuras/brasao-brasil.png>
 Package pdftex.def Info: figuras/brasao-brasil.png  used on input line 11.
@@ -1988,13 +1985,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 26804 strings out of 492639
- 430129 string characters out of 6129310
- 762971 words of memory out of 5000000
- 29986 multiletter control sequences out of 15000+600000
+ 26717 strings out of 492649
+ 428705 string characters out of 6129607
+ 759027 words of memory out of 5000000
+ 29893 multiletter control sequences out of 15000+600000
  66799 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,18n,92p,2083b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,18n,92p,2083b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/
@@ -2002,10 +1999,10 @@ texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on documento.pdf (25 pages, 280251 bytes).
+Output written on documento.pdf (25 pages, 280271 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
+ 343 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  88 named destinations out of 1000 (max. 500000)
  37548 words of extra memory for PDF output out of 42996 (max. 10000000)
 
