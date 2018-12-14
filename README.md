@@ -6,4 +6,4 @@ O IFCETeX2 é um projeto baseado no abnTeX2 desenvolvido para auxiliar os alunos
 O IFCETeX2 é fornecido gratuitamente e sem garantias e pode ser redistribuído livremente para fins acadêmicos. O IFCETeX2 é um produto extra-oficial e não está oficialmente vinculado ao Campus Crateús do Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE.
 # Agradecimento
 Thiago Nascimento
-https://github.com/thiagodnf
+https://github.com/thiagodnf/uecetex2
