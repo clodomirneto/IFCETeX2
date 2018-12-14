@@ -1,54 +1,50 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Customizações do abnTeX2 para o Campus Crateús do IFCE    				%%%
 %%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   		%%%
-%%%																							%%%
-%%% Conditions of the LaTeX Project Public License, either version 1.3	%%%
-%%% of this license or (at your option) any later version.              %%%
-%%%																							%%%
-%%% The latest version of this license is in                            %%%
+%%%																		%%%
+%%% Conditions of the LaTeX Project Public License, either version 1.3		%%%
+%%% of this license or (at your option) any later version.              	%%%
+%%%																		%%%
+%%% The latest version of this license is in                            	%%%
 %%% http://www.latex-project.org/lppl.txt                     				%%%
-%%% and version 1.3 or later is part of all distributions of LaTeX      %%%
-%%% version 2005/12/01 or later.                                        %%%
-%%%                                                                     %%%
-%%% This work has the LPPL maintenance status 'maintained'.             %%%
-%%%                                                                     %%%
-%%% Further information about abnTeX2 are available on                  %%%
+%%% and version 1.3 or later is part of all distributions of LaTeX      	%%%
+%%% version 2005/12/01 or later.                                        	%%%
+%%%                                                                     	%%%
+%%% This work has the LPPL maintenance status 'maintained'.             	%%%
+%%%                                                                     	%%%
+%%% Further information about abnTeX2 are available on                  	%%%
 %%%  http://abntex2.googlecode.com/                      					%%%
-%%%																							%%%
-%%% The Current Maintainer of this work is Clodomir Silva Lima Neto     %%%
-%%% Email para contato: clodomir.neto@ifce.edu.br								 %%%
-%%%                                                                      %%%
-%%% Project available on: https://github.com/clodomirneto/IFCETeX2       %%%
-%%%                                                                      %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%																		%%%
+%%% The Current Maintainer of this work is Clodomir Silva Lima Neto     	%%%
+%%% Email para contato: clodomir.neto@ifce.edu.br							%%%
+%%%                                                                      	%%%
+%%% Project available on: https://github.com/clodomirneto/IFCETeX2       	%%%
+%%%                                                                      	%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% 			Sequência de Compilação do Documento					%%%
-%%%																				%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 			Sequência de Compilação do Documento							%%%
+%%%																		%%%
 %%%	pdflatex documento.tex												%%%
 %%%	bibtex documento.aux													%%%
 %%%	makeglossaries documento.glo											%%%
 %%%	makeindex documento.idx												%%%
 %%%	pdflatex documento.tex												%%%
 %%%	pdflatex documento.tex												%%%
-%%%	documento.pdf 															%%%
-%%% 																			%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|			%%%
-%%% bibtex %.aux|															%%%
+%%%	documento.pdf 														%%%
+%%% 																		%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|					%%%
+%%% bibtex %.aux|														%%%
 %%% makeglossaries %.glo|												%%%
 %%% makeindex %.aux|														%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex| 			%%%
-%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|			%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex| 					%%%
+%%% pdflatex -synctex=1 -interaction=nonstopmode %.tex|					%%%
 %%% evince %.pdf															%%%
-%%%																				%%%
+%%%																		%%%
 %%% make -f Makefile														%%%
-%%%																				%%%
-%%% git status + git add . + git commit + git push				%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%          	Configurações do IFCETeX2	           			 %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%																		%%%
+%%% git status + git add . + git commit + git push						%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{preambulo}
 
