@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Customizações do abnTeX2 para o Campus Crateús do IFCE    			%%%
-%%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   	%%%
+%%% 				Customizações do abnTeX2 para o IFCE    				%%%
+%%% 		Instituto Federal de Educação, Ciência e Tecnologia do Ceará  %%%
 %%%																	%%%
 %%% Template disponível em: https://github.com/clodomirneto/IFCETeX2	%%%
 %%% Desenvolvedor do IFCETeX2: Professor Clodomir Silva Lima Neto  	%%%
@@ -17,22 +17,6 @@
 %%% 2. No Ambiente Overleaf, clicar em Menu (canto superior esquerdo) 	%%% 
 %%% 3. Clicar em "Copiar Projeto".  									%%%
 %%% 4. Dê um novo nome para o Projeto. 								%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% 			Sequência de Compilação do Documento						%%%
-%%%																	%%%
-%%%	pdflatex documento.tex											%%%
-%%%	bibtex documento.aux												%%%
-%%%	makeglossaries documento.glo										%%%
-%%%	makeindex documento.idx											%%%
-%%%	pdflatex documento.tex											%%%
-%%%	pdflatex documento.tex											%%%
-%%%	documento.pdf 													%%%
-%%% 																	%%%
-%%% make -f Makefile													%%%
-%%%																	%%%
-%%% git status + git add . + git commit + git push					%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{preambulo}
@@ -165,12 +149,12 @@
 \imprimirepigrafe{elementos-pre-textuais/epigrafe}
 \imprimirresumo{elementos-pre-textuais/resumo}
 \imprimirabstract{elementos-pre-textuais/abstract}
-\imprimirlistadeilustracoes
+\imprimirlistadefiguras
 \imprimirlistadetabelas
-\imprimirlistadequadros
+%\imprimirlistadequadros
 %\imprimirlistadealgoritmos
 %\imprimirlistadecodigosfonte
-\imprimirlistadesiglas
+\imprimirlistadesiglas{elementos-pre-textuais/lista-de-siglas}
 \imprimirlistadesimbolos{elementos-pre-textuais/lista-de-simbolos}
 \imprimirsumario
 	

@@ -2,36 +2,24 @@
 % !TeX root = ../documento.tex
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Customizações do abnTeX2 para o Campus Crateús do IFCE    			%%
-%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   		%%
-%%																		%%
-% Conditions of the LaTeX Project Public License, either version 1.3 	%%
-%% of this license or (at your option) any later version.               %%
-%%																		%%
-%% The latest version of this license is in                             %%
-%% http://www.latex-project.org/lppl.txt                     			%%
-%% and version 1.3 or later is part of all distributions of LaTeX       %%
-%% version 2005/12/01 or later.                                         %%
-%%                                                                      %%
-%% This work has the LPPL maintenance status 'maintained'.              %%
-%%                                                                      %%
-%% The Current Maintainer of this work is Clodomir Silva Lima Neto      %%
-%%                                                                      %%
-%% Project available on: https://github.com/clodomirneto/IFCETeX2       %%
-%%                                                                      %%
-%% Further information about abnTeX2 are available on                   %%
-%%  http://abntex2.googlecode.com/                      				%%
-%%                                                                      %%
+%%% Customizações do abnTeX2 para o Campus Crateús do IFCE    			%%%
+%%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   	%%%
+%%%																	%%%
+%%% Template disponível em: https://github.com/clodomirneto/IFCETeX2	%%%
+%%% Desenvolvedor do IFCETeX2: Professor Clodomir Silva Lima Neto  	%%%
+%%% Email para contato: clodomir.neto@ifce.edu.br						%%%
+%%% 																	%%%
+%%% Agradecimento: Thiago Nascimento 									%%%
+%%% https://github.com/thiagodnf/uecetex2                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Se você quer ver as margens do documento no PDF, descomente essa linha
 % As linhas das margens serao impressas
-%\usepackage[showframe, pass]{geometry}
+%\usepackage[showframe,pass]{geometry}
 
 % Definições
 
 % Importa o arquivo com as entradas do glassario
-\input{elementos-pre-textuais/lista-de-siglas}
 %\input{elementos-pos-textuais/glossario}
 
 % Formatação das Páginas
@@ -110,7 +98,7 @@
 %\renewcommand{\cfttablefont}{\bfseries}
 
 % Remove o ponto final de cada entrada da lista de siglas
-\renewcommand{\glspostdescription}{}
+%\renewcommand{\glspostdescription}{}
 
 % Espaçamento entre o texto e a legenda
 %\setlength{\belowcaptionskip}{\onelineskip}
@@ -119,10 +107,10 @@
 %\frenchspacing
 
 \addto\captionsbrazil{
-	\renewcommand{\bibname}{REFER\^ENCIAS}
-	\renewcommand{\indexname}{\'INDICE}
+	\renewcommand{\bibname}{Refer\^encias}
+	\renewcommand{\indexname}{\'Indice}
 	\renewcommand{\contentsname}{Sum\'ario \vspace{5pt}}
-	\renewcommand{\listadesimbolosname}{Lista de Símbolos}
+	%\renewcommand{\listadesimbolosname}{Lista de Símbolos}
 }
 
 % Por algum motivo, o algorithm2e estava pegando algumas palavras do espanhol.
@@ -329,7 +317,7 @@
 \SetKwBlock{Inicio}{início}{fim}
 
 % Numeracao da tabela comeca em 1
-\setcounter{table}{-1}
+\setcounter{table}{0}
 
 % Comandos para inserir figuras, tabelas e quadros
 \newcommand{\IFCEfig}[3]{\IBGEtab{#1}{#2}{#3}}
@@ -1133,16 +1121,37 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 	\end{resumo} %
 }
 
+% Lista de Figuras
+
+\newcommand{\figurasname}{Figura}
+\newcommand{\listoffigurasname}{Lista de Figuras}
+\newfloat[chapter]{figura}{lof}{\figuraname}
+\newlistof{listoffiguras}{lof}{\listoffigurasname}
+\newlistentry{figura}{lof}{0}
+
+% configurações para atender às regras da ABNT
+\counterwithout{figura}{chapter}
+\renewcommand{\cftfiguraname}{\figuraname\space} 
+\renewcommand*{\cftfiguraaftersnum}{\hfill--\hfill}
+% agora a lista de figura eh negrito
+%\renewcommand{\cftfigurafont}{\bfseries}
+
+\newcommand{\imprimirlistadefiguras}{ %
+	\pdfbookmark[0]{\listoffigurasname}{lof} %
+	\listoffiguras* %
+	\pagebreak %
+}
+
 % Lista de Ilustrações
 
 % A lista de Ilustrações não deve aparecer no sumário
 
-\newcommand{\imprimirlistadeilustracoes}{
-	\begin{KeepFromToc} %
-		\listoffigures %
-		\pagebreak %
-	\end{KeepFromToc} %
-}
+%\newcommand{\imprimirlistadeilustracoes}{
+%	\begin{KeepFromToc} %
+%		\listoffigures %
+%		\pagebreak %
+%	\end{KeepFromToc} %
+%}
 
 % Lista de Tabelas
 
@@ -1181,19 +1190,16 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 
 % Lista de Siglas
 
-% Largura da lista de Siglas
-\setlength{\glsdescwidth}{\linewidth}
-
-\newcommand{\imprimirlistadesiglas}{
-\printglossary[type=\acronymtype,style=long,nonumberlist,title={Lista de Siglas}] %
-%\vspace{-0.3cm}
-%\pagebreak %
+\newcommand{\imprimirlistadesiglas}[1]{
+	\input{#1}
+	\pagebreak
 }
 
-% Lista de Simbolos
+% Lista de Símbolos
 
 \newcommand{\imprimirlistadesimbolos}[1]{
 	\input{#1}
+	\pagebreak
 }
 
 % Lista de Algoritmos
