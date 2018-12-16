@@ -1381,32 +1381,32 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 % Glossário
 
 %% Glossario desenvolvido para o IFCE
-\setlist{nosep}
-\newglossarystyle{glossario-ifce}{%
+%\setlist{nosep}
+%\newglossarystyle{glossario-ifce}{%
 	%
-	\renewenvironment{theglossary}%
-	{\vspace{-0.3cm}\begin{description}[leftmargin=0cm]\itemsep -1pt}{\end{description}}%
+%	\renewenvironment{theglossary}%
+%	{\vspace{-0.3cm}\begin{description}[leftmargin=0cm]\itemsep -1pt}{\end{description}}%
 	%
-	\renewcommand*{\glossaryheader}{}%
+%	\renewcommand*{\glossaryheader}{}%
 	
 	% indicate what to do at the start of each logical group
 	
-	\renewcommand*{\glsgroupheading}[1]{%
-		\vspace{0cm}\item[{\glsgetgrouptitle{##1}}] \vspace{\onelineskip}		
-	}
+%	\renewcommand*{\glsgroupheading}[1]{%
+%		\vspace{0cm}\item[{\glsgetgrouptitle{##1}}] \vspace{\onelineskip}		
+%	}
 	%
-	\renewcommand*{\glsgroupskip}{}%
+%	\renewcommand*{\glsgroupskip}{}%
 	% Depois da palavra, colocar o ":" e no fim o ponto final "."
-	\renewcommand*{\glossaryentryfield}[5]{%
-		\item[\glstarget{##1}{##2}:] ##3.%
-	}%
-}
+%	\renewcommand*{\glossaryentryfield}[5]{%
+%		\item[\glstarget{##1}{##2}:] ##3.%
+%	}%
+%}
 
-\newcommand{\imprimirglossario}{ %
-	\glossarystyle{glossario-ifce} %	
-	\printglossary[title=GLOSSÁRIO,toctitle=GLOSSÁRIO] %
-	\addcontentsline{toc}{chapter}{GLOSSÁRIO}
-}
+%\newcommand{\imprimirglossario}{ %
+%	\glossarystyle{glossario-ifce} %	
+%	\printglossary[title=GLOSSÁRIO,toctitle=GLOSSÁRIO] %
+%	\addcontentsline{toc}{chapter}{GLOSSÁRIO}
+%}
 
 % Referências
 
