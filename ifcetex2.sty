@@ -1,17 +1,19 @@
 % !TeX encoding = UTF-8
 % !TeX root = ../documento.tex
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Customizações do abnTeX2 para o Campus Crateús do IFCE    			%%%
-%%% Instituto Federal de Educação, Ciência e Tecnologia do Ceará.   	%%%
-%%%																	%%%
-%%% Template disponível em: https://github.com/clodomirneto/IFCETeX2	%%%
-%%% Desenvolvedor do IFCETeX2: Professor Clodomir Silva Lima Neto  	%%%
-%%% Email para contato: clodomir.neto@ifce.edu.br						%%%
-%%% 																	%%%
-%%% Agradecimento: Thiago Nascimento 									%%%
-%%% https://github.com/thiagodnf/uecetex2                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 				Customizações do abnTeX2 para o IFCE    			 %%%
+%%% 		Instituto Federal de Educação, Ciência e Tecnologia do Ceará %%%
+%%%																		 %%%
+%%% Template disponível em: https://github.com/clodomirneto/IFCETeX2	 %%%
+%%% Desenvolvedores do IFCETeX2: Professor Clodomir Silva Lima Neto		 %%%
+%%% 							 Professor Marcelo Araújo Lima			 %%%
+%%% E-mails para contato: clodomir.neto@ifce.edu.br						 %%%
+%%% 					  marcelo.alima@ifce.edu.br						 %%%
+%%%																		 %%%
+%%% Agradecimento: Thiago Nascimento 									 %%%
+%%% https://github.com/thiagodnf/uecetex2                                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Se você quer ver as margens do documento no PDF, descomente essa linha
 % As linhas das margens serao impressas
@@ -560,7 +562,7 @@ Dissertação apresentada ao curso de \imprimirmestrado\ do \imprimirprogramames
 }
 
 \newcommand{\preambulotccespecializacao}{
-Trabalho de Conclusão de Curso apresentado ao curso de Especialização em \imprimirespecializacaoem\ do \imprimiries\ (\imprimiriessigla) - \imprimircentro\, como requisito parcial para obtenção do Título de \imprimirhabilitacaoesp\ em \imprimirespecializacaoem. Área de concentração: \imprimirareadeconcentracaoespecializacao. \\
+Trabalho de Conclusão de Curso de Especialização apresentado ao curso de Especialização em \imprimirespecializacaoem\ do \imprimiries\ (\imprimiriessigla) - \imprimircentro\, como requisito parcial para obtenção do Título de \imprimirhabilitacaoesp\ em \imprimirespecializacaoem. Área de concentração: \imprimirareadeconcentracaoespecializacao. \\
 }
 
 \newcommand{\preambulotccgraduacao}{
@@ -687,7 +689,7 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 
 \renewcommand{\imprimircapa}{%
 	% Toda capa deve ter pagina 0
-	\setcounter{page}{0}
+	
 	\ifthenelse{\boolean{ifcetex2@ehdissertacao}}{ %
 			\imprimircapadissertacao %	
 	}{
@@ -701,6 +703,7 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 			}
 		}
 	}
+	\setcounter{page}{0}
 }
 
 % Folha de Rosto
@@ -712,11 +715,11 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 		%\bfseries
 	\begin{center}
 		\normalsize\MakeUppercase\imprimirautor\par
-		\vspace{6.5cm}\par
+		\vspace{2cm}\par
 		\normalsize\MakeUppercase\imprimirtitulo
 	\end{center}
 	
-	\vspace{2.5cm}
+	\vspace{1.5cm}
 	
 	%Retira o espaço do parágrafo
 	\hspace*{-2cm}
@@ -1445,23 +1448,23 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 %}
 
 % Retira o negrito do apêndice e o coloca alinhado a esquerda
-%\renewcommand{\printchaptertitle}[1]{%
-%	\chaptitlefont%
-%	\ifthenelse{\boolean{abntex@innonumchapter}}{\centering\ABNTEXchapterupperifneeded{#1}}{%
-%		\ifthenelse{\boolean{abntex@apendiceousecao}}{%
-%			\normalfont
-%			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
+\renewcommand{\printchaptertitle}[1]{%
+	\chaptitlefont \centering
+	\ifthenelse{\boolean{abntex@innonumchapter}}{\centering\ABNTEXchapterupperifneeded{#1}}{%
+		\ifthenelse{\boolean{abntex@apendiceousecao}}{%
+			\normalfont
+			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
 			%\hspace{-0.3cm} %
-%			#1 %\ABNTEXchapterupperifneeded{#1}%
-%		}{%
-%			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
-%			\parbox[t]{\columnwidth-\chapternamenumlength}{\ABNTEXchapterupperifneeded{#1}}
-%		}%
-%	}    
-%}
+			\ABNTEXchapterupperifneeded{#1}%
+		}{%
+			\settowidth{\chapternamenumlength}{\printchaptername\printchapternum\afterchapternum}%
+			\parbox[t]{\columnwidth-\chapternamenumlength}{\ABNTEXchapterupperifneeded{#1}}
+		}%
+	}    
+}
 
 \newcommand{\imprimirapendices}{ %
-	\imprimirpaginaapendices
+%	\imprimirpaginaapendices
 	\apendices %
 	% Retira o negrito da palavra "Apendice"
 	%\PRIVATEapendiceconfig{\normalfont\apendicename}{\normalfont\apendicesname} %
