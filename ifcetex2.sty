@@ -40,7 +40,7 @@
 % Espacamentos nos titulos
 
 % chapter
-\setlength{\beforechapskip}{-\onelineskip} %com 0 nao funcionou
+\setlength{\beforechapskip}{-\onelineskip} % com 0 nao funcionou
 \setlength{\afterchapskip}{\onelineskip} % antes do titulo de capitulo
 %\setlength\beforechapskip{-18pt}
 %\setlength{\afterchapskip}{2cm}
@@ -88,7 +88,8 @@
 % Margens da legenda da figura e da tabela
 \captionsetup{
 	justification=justified, % Justificar o caption
-	skip=0pt,                %Retira o espaco entre a figura/tabela e o caption
+	skip=0pt, % Retira o espaco entre a figura/tabela e o caption
+	format=plain, singlelinecheck=false
 	%labelfont=bf, % A palavra 'Figure 1' agora eh negrito
 	%font=bf	% O texto depois de 'Figure 1' agora eh negrito
 }
@@ -156,8 +157,11 @@
 
 % Distance between floats inserted inside the page text (using h) and the text proper.
 \setlength{\intextsep}{18pt plus 2pt minus 2pt}
+\setlength{\captionmargin}{1cm}
 
 \newcommand{\Caption}[1]{ %
+\captionsetup{singlelinecheck=false,format=plain,
+justification=justified} 
 	\begin{Spacing}{1} %
        	\caption{#1} %
    	\end{Spacing} %
@@ -166,18 +170,18 @@
 \newcommand{\Fonte}[2][\fontename]{ %
 %	\vspace{-3pt}
 \begin{Spacing}{1} %
-       	\fonte[\normalfont{#1}]{\normalfont{#2}}
-   	\end{Spacing} %
-	%\vspace{8pt}
- 		%\fonte[\normalfont{#1}]{\normalfont{#2}}
- 	%\vspace{-5pt}
+\fonte[\normalfont{#1}]{\normalfont{#2}}
+\end{Spacing} %
+%\vspace{8pt}
+%\fonte[\normalfont{#1}]{\normalfont{#2}}
+%\vspace{-5pt}
 }
 
 % Cria o comando para fazer notas e anotacoes na figura e na tabela
 \newcommand{\Nota}[2][\notaname]{
 \begin{Spacing}{1} %
-       	\fonte[\normalfont{#1}]{\normalfont{#2}}
-   	\end{Spacing} %
+\fonte[\normalfont{#1}]{\normalfont{#2}}
+\end{Spacing} %
 %\Fonte[#1]{#2}
 } 
 
