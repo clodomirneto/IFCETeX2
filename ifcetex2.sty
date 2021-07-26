@@ -1,19 +1,21 @@
 % !TeX encoding = UTF-8
 % !TeX root = ../documento.tex
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% 				Customizações do abnTeX2 para o IFCE    			 %%%
-%%% 		Instituto Federal de Educação, Ciência e Tecnologia do Ceará %%%
-%%%																		 %%%
-%%% Template disponível em: https://github.com/clodomirneto/IFCETeX2	 %%%
-%%% Desenvolvedores do IFCETeX2: Professor Clodomir Silva Lima Neto		 %%%
-%%% 							 Professor Marcelo Araújo Lima			 %%%
-%%% E-mails para contato: clodomir.neto@ifce.edu.br						 %%%
-%%% 					  marcelo.alima@ifce.edu.br						 %%%
-%%%																		 %%%
-%%% Agradecimento: Thiago Nascimento 									 %%%
-%%% https://github.com/thiagodnf/uecetex2                                %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 				Customizações do abnTeX2 para o IFCE    			   %%%
+%%% 		Instituto Federal de Educação, Ciência e Tecnologia do Ceará   %%%
+%%%																		   %%%
+%%% Template disponível em: https://github.com/clodomirneto/IFCETeX2	   %%%
+%%% Desenvolvedores do IFCETeX2: Professor Clodomir Silva Lima Neto	       %%%
+%%% 							 Professor Marcelo Araújo Lima		       %%%
+%%% 					  	     Professor Antonio Sergio de Sousa Vieira  %%%
+%%% E-mails para contato: clodomir.neto@ifce.edu.br						   %%%
+%%% 					  marcelo.alima@ifce.edu.br					       %%%
+%%% 					  sergio.vieira@ifce.edu.br					       %%%
+%%%																		   %%%
+%%% Agradecimento: Thiago Nascimento 									   %%%
+%%% https://github.com/thiagodnf/uecetex2                                  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Se você quer ver as margens do documento no PDF, descomente essa linha
 % As linhas das margens serao impressas
@@ -368,8 +370,8 @@ justification=justified}
 \newcommand{\programadoutorado}{\def \@programadoutorado}
 \newcommand{\imprimirprogramadoutorado}{\@programadoutorado}
 
-\newcommand{\nomedodoutorado}{\def \@doutorado}
-\newcommand{\imprimirnomedodoutorado}{\@doutorado}
+\newcommand{\nomedodoutorado}{\def \@nomedodoutorado}
+\newcommand{\imprimirnomedodoutorado}{\@nomedodoutorado}
 
 \newcommand{\doutorem}{\def \@doutorem}
 \newcommand{\imprimirdoutorem}{\@doutorem}
@@ -380,8 +382,8 @@ justification=justified}
 \newcommand{\programamestrado}{\def \@programamestrado}
 \newcommand{\imprimirprogramamestrado}{\@programamestrado}
 
-\newcommand{\nomedomestrado}{\def \@mestrado}
-\newcommand{\imprimirnomedomestrado}{\@mestrado}
+\newcommand{\nomedomestrado}{\def \@nomedomestrado}
+\newcommand{\imprimirnomedomestrado}{\@nomedomestrado}
 
 \newcommand{\mestreem}{\def \@mestreem}
 \newcommand{\imprimirmestreem}{\@mestreem}
@@ -535,7 +537,6 @@ justification=justified}
 \membrodabancadoisies{}
 \membrodabancadoiscentro{}
 
-
 \membrodabancatres{}
 \membrodabancatresies{}
 \membrodabancatrescentro{}
@@ -543,7 +544,6 @@ justification=justified}
 \membrodabancaquatro{}
 \membrodabancaquatroies{}
 \membrodabancaquatrocentro{}
-
 
 \membrodabancacinco{}
 \membrodabancacincoies{}
@@ -558,11 +558,11 @@ justification=justified}
 % Definições do Preâmbulo da Folha de Rosto
 
 \newcommand{\preambulotese}{
-Tese apresentada ao curso de \imprimirdoutorado\ do \imprimirprogramadoutorado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de doutor em \imprimirdoutorem. Área de Concentração: \imprimirareadeconcentracaodoutorado. \\
+Tese apresentada ao curso de \imprimirnomedodoutorado\ do \imprimirprogramadoutorado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de doutor em \imprimirdoutorem. Área de Concentração: \imprimirareadeconcentracaodoutorado. \\
 }
 
 \newcommand{\preambulodissertacao}{
-Dissertação apresentada ao curso de \imprimirmestrado\ do \imprimirprogramamestrado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de mestre em \imprimirmestreem. Área de Concentração: \imprimirareadeconcentracaomestrado. \\
+Dissertação apresentada ao curso de \imprimirnomedomestrado\ do \imprimirprogramamestrado\ do \imprimircentro\ da \imprimiries, como requisito parcial à obtenção do título de mestre em \imprimirmestreem. Área de Concentração: \imprimirareadeconcentracaomestrado. \\
 }
 
 \newcommand{\preambulotccespecializacao}{
@@ -609,7 +609,7 @@ Trabalho de Conclusão de Curso apresentado ao curso de \imprimirgraduacaoem\ do
 		\abntex@ifnotempty{\imprimirprogramadoutorado}{
 			\MakeUppercase{\imprimirprogramadoutorado} \\
 		}		
-		\MakeUppercase{\imprimirdoutorado} \\
+		\MakeUppercase{\imprimirnomedodoutorado} \\
 
 		\vspace{\onelineskip}
 
